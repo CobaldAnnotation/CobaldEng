@@ -38,7 +38,7 @@ At the first stage, the corpus was annotated with the [ABBYY Compreno semantic m
 
 To make the formalism simpler, we decided to use so-called generalized semantic classes, which denote not exactly the meaning of a word but are hyperonyms for larger word classes. For instance, all words with motion semantics belong to the hyperonym class MOTION, and all words denoting humans &ndash; in the semantic class HUMAN.
 
-More than that, we reduced the number of the semantic roles. For example, full ABBYY Compreno markup suggests different roles for different characteristic dependencies (that is, weight, speed, size, and so on). In the generalized variant, all such characteristics correspond to one characteristical role. Or, the Compreno model has several slots for temporal relations: Time (`yesterday', `in two days'), Time\_Situation (`when everybody comes'), Time\_Being ('in times of Ivan the Terrible'). In the generalized presentation, all these roles correspond to only one Time slot.
+More than that, we reduced the number of the semantic roles. For example, full ABBYY Compreno markup suggests different roles for different characteristic dependencies (that is, weight, speed, size, and so on). In the generalized variant, all such characteristics correspond to one characteristical role. Or, the Compreno model has several slots for temporal relations: Time (‘yesterday’, ‘in two days’), Time\_Situation (‘when everybody comes’), Time\_Being (‘in times of Ivan the Terrible’). In the generalized presentation, all these roles correspond to only one Time slot.
 
 As a result, the number of the hyperonym semantic classes used in the markup was reduced to about 650 classes, and the number of the semantic roles to 143 slots.
 
@@ -88,7 +88,7 @@ Unlike the UD format, Compreno has so called non-morphological lexemes, such as 
 
 **Merging**
 
-In most cases, the ABBYY Compreno model treats parts of composite words as separate tokens. It concerns words like ‘re-distribution’ (‘re’ + ‘distribution’), ‘anti-revolutionary’ (‘ anti’ + ‘revolutionary’), names with numbers (‘TU-104’), or ordinal numbers written with combinations of a number and its grammatical inflection (‘10th day’). Such cases are joined in one UD token with the help of the script.
+In most cases, the ABBYY Compreno model treats parts of composite words as separate tokens. It concerns words like ‘re-distribution’ (‘re’ + ‘distribution’), ‘anti-revolutionary’ (‘anti’ + ‘revolutionary’), names with numbers (‘TU-104’), or ordinal numbers written with combinations of a number and its grammatical inflection (‘10th day’). Such cases are joined in one UD token with the help of the script.
 
 ## The conversion of the syntactic heads
 
@@ -96,7 +96,7 @@ The syntactic heads are converted into the UD format from the bracket ABBYY Comp
 
 Other significant structural differences between the two formats are the following:
 
-1.  Copula ‘be’: in the constructions such as *‘the girl was beautiful’*, *‘Peter was a teacher’* and alike the UD considers ‘beautiful', `teacher’ as heads, while in the Compreno ‘be’ is the head;
+1.  Copula ‘be’: in the constructions such as *‘the girl was beautiful’*, *‘Peter was a teacher’* and alike the UD considers ‘beautiful’, ‘teacher’ as heads, while in the Compreno ‘be’ is the head;
     
 2.  Coordination: the UD makes the first member of the coordination the head for other coordination members, while in Compreno all homogeneous members depend on their real head;
     
