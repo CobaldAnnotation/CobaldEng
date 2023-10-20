@@ -2,7 +2,7 @@
 
 Here is the CoBaLD Eng corpus - a 150,000 token corpus of English news annotated with CoBaLD markup. The corpus uses the CONLL-U Plus standard and includes three markup levels: morphological, syntactic and semantic. Morphosyntax is annotated according to the  [Enhanced UD formalism](https://universaldependencies.org/u/overview/enhanced-syntax.html), and the semantic pattern is based on a simplified version of the Compreno model.
 
-CoBaLD Eng differs from previously annotated CoBaLD Rus [Russian dataset](https://github.com/CobaldAnnotation/CobaldRus) in two aspects. First, the Russian corpus complies with the basic UD principles - not the Enhanced UD. Second, it uses CONLL-U standard with ten columns which is sligtly different from CONLL-U Plus, as the latter gives the opportunity to add new columns. In future, Russian corpus will also be transfered to the CONLL-U Plus standard and to the Enhanced UD annotation.
+CoBaLD Eng differs from previously annotated CoBaLD Rus [Russian dataset](https://github.com/CobaldAnnotation/CobaldRus) in two aspects. First, the Russian corpus complies with the basic UD principles - not the Enhanced UD. Second, it uses CONLL-U standard with ten columns which is slightly different from CONLL-U Plus, as the latter gives the opportunity to add new columns. In future, Russian corpus will also be transferred to the CONLL-U Plus standard and to the Enhanced UD annotation.
 
 <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://img.shields.io/static/v1?label=license&message=CC-BY-NC-4.0&color=green"/></a>
 
