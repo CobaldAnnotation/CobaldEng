@@ -49,7 +49,7 @@ As a result, the number of the hyperonym semantic classes used in the markup was
 
 # The conversion of the Compreno markup to the UD format
 
-Please refer to this paper if you mention the CoBaLD conversion (Compreno to UD) in your work
+Please refer to this paper if you mention the CoBaLD conversion (Compreno to UD) in your work:
 ```
 Ivoylova Alexandra, Dyachkova Darya, Petrova Maria, Michurina Mariia. 2023.
 The problem of linguistic markup conversion: the transformation of the Compreno
@@ -57,9 +57,9 @@ markup into the UD format // Computational Linguistics and Intellectual Technolo
 ```
 
 
-In the ABBYY Compreno markup represent constituency trees which can be extracted from the model parser through API. Each token is provided with both its semantic class and the semantic relation with its head.
+The Compreno markup represents constituency trees which can be extracted from the model parser through API. Each token is provided with both its semantic class and the semantic relation with its head.
 
-The markup can also be provided with surface, or syntactic, roles, coreference and non-tree links, however, the purpose of the given dataset was only the semantic markup. The only surface slot mentioned in the markup is the $Dislocation slot (the $ sign denotes surface slots in the model) &ndash; it is the slot for the dislocated constituents (dislocated constituents are the ones that syntactically depend on one core, while semantically &ndash; on the other core). The only non-tree link we extracted in order to comply with the Enhanced UD principles was the `ref' tag which denotes the connection between a relative pronoun and its antecedent as in the following example:
+Parsing trees also include such information as surface, or syntactic, roles, coreference, non-tree links, morphological and syntactic features (grammemes). However, the purpose of the given dataset was only the semantic markup. Nevertheless, surface slots were used in syntax conversion. Besides, in order to comply with the Enhanced UD principles, we extracted one non-tree link - `ref' tag which denotes the connection between a relative pronoun and its antecedent as in the following example:
 
 ![ref](https://github.com/CobaldAnnotation/CobaldEng/assets/71529585/2385a6a6-7a0b-4a81-ac75-ba5e1cb44577)
 
