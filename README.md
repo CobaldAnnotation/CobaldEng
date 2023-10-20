@@ -1,6 +1,6 @@
 # The CoBaLD Eng corpus
 
-A corpus with full three language level markup. 
+A corpus with full three language level markup in CONLL-U Plus standard. Enhanced-UD version: for the conversion of the English dataset we used E-UD formalism, as opposed to our [Russian dataset](https://github.com/CobaldAnnotation/CobaldRus) where the first version complies with the basic UD principles and uses sligtly different standard (CONLL-U with ten columns). 
 
 <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://img.shields.io/static/v1?label=license&message=CC-BY-NC-4.0&color=green"/></a>
 
@@ -53,7 +53,7 @@ markup into the UD format // Computational Linguistics and Intellectual Technolo
 ```
 
 
-In the ABBYY Compreno markup represent constituency trees and visually the boundaries of the constituents are marked with square brackets which are put around the dependent nodes. Each token is provided with both its semantic class and the semantic relation with its head.
+In the ABBYY Compreno markup represent constituency trees which can be extracted from the model parser through API. Each token is provided with both its semantic class and the semantic relation with its head.
 
 The markup can also be provided with surface, or syntactic, roles, coreference and non-tree links, however, the purpose of the given dataset was only the semantic markup. The only surface slot mentioned in the markup is the $Dislocation slot (the $ sign denotes surface slots in the model) &ndash; it is the slot for the dislocated constituents (dislocated constituents are the ones that syntactically depend on one core, while semantically &ndash; on the other core). The only non-tree link we extracted in order to comply with the Enhanced UD principles was the `ref' tag which denotes the connection between a relative pronoun and its antecedent as in the following example:
 
@@ -108,6 +108,32 @@ In all such cases we converted Compreno structures to UD structures.
 [Here](https://universaldependencies.org/u/dep/) you can see a table of categories for the dependency relations in the UD. In Compreno, the number of the categories is much bigger, and the categories are organized in a different way: each deep (semantic) slot can correspond to a number of surface (syntactic) slots. On the one hand, such a model allows one to define the semantic and syntactic relations more precisely and in more detail, on the other hand, it includes much more items than the UD model.
 
 As we have decided to keep to the UD format here as the one which is better known for the users, the syntactic relations are presented in the UD format. Nevertheless, practice shows that it is not always easy to make the choice between the categories (for instance, the boundaries between the obj, iobj and obl seem sometimes rather vague). Therefore, the results of the conversion may contain some differences from the original format, but it seems that it should not influence the learning of the parsers significantly.
+
+As the Enhanced UD format supposes ellipsis restoration, we have also added this feature to our annotation which looks like in the following example:
+
+```
+# text = "I'm not prejudiced, I'll sell to able-bodied people if I have to" 
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No	_	_
+2-3	I'm	_	_	_	_	_	_	_	_	_	_
+2	I	I	PRON	Pronoun	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	SpaceAfter=No	Object	BEING
+3	'm	be	VERB	Verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_	Predicate	BE
+4	not	not	PART	Particle	_	5	advmod	5:advmod	_	_	PARTICLES
+5	prejudiced	prejudiced	ADJ	Adjective	Degree=Pos	0	root	0:root	SpaceAfter=No	State	CH_BY_WORLD_OUTLOOK_EDUCATION_AESTHETIC
+6	,	,	PUNCT	PUNCT	_	9	punct	_	_	_	_
+7-8	I'll	_	_	_	_	_	_	_	_	_	_
+7	I	I	PRON	Pronoun	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	SpaceAfter=No	Agent	BEING
+8	'll	will	AUX	Verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_	_	AUXILIARY_VERBS
+9	sell	sell	VERB	Verb	Mood=Ind|Number=Plur|VerbForm=Fin	5	parataxis	0:root|5:parataxis	_	Predicate	TO_GIVE
+10	to	to	ADP	Preposition	_	12	case	12:case	_	_	PREPOSITION
+11	able-bodied	able-bodied	ADJ	Adjective	Degree=Pos	12	amod	12:amod	_	Characteristic	PHYSICAL_PSYCHIC_CONDITION
+12	people	people	NOUN	Noun	Number=Plur	9	obl	9:obl:to	_	Possessor	HUMAN
+13	if	if	SCONJ	Conjunction	_	15	mark	15:mark	_	_	CONJUNCTIONS
+14	I	I	PRON	Pronoun	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	_	Experiencer	BEING
+15	have	have	VERB	Verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:if	_	Condition	MODALITY
+16	to	to	ADP	Preposition	_	15	xcomp	16.1:mark	SpaceAfter=No	_	PARTICLES
+16.1	#NULL	#NULL	VERB	Verb	Person=1|Tense=Pres|VerbForm=Inf	_	_	15:xcomp	ellipsis	Object_Situation	TO_GIVE
+17	"	"	PUNCT	PUNCT	_	5	punct	_	_	_	_
+```
 
 # Main problems and their solutions
 
