@@ -27,7 +27,7 @@ The whole BBC corpus contains around 963,000 tokens. CoBaLD Eng is a bit more th
 
 The dataset contains 3 markup levels:
 
-- morphological,
+- morphological, 
 - syntactic,
 - semantic.
 
