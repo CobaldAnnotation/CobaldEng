@@ -63,9 +63,6 @@ Parsing trees also include such information as surface, or syntactic, roles, cor
 
 ![ref](https://github.com/CobaldAnnotation/CobaldEng/assets/71529585/2385a6a6-7a0b-4a81-ac75-ba5e1cb44577)
 
-Unlike the UD format, the bracket format does not allow one to indicate morphological information in the markup, that is, parts of speech and grammatical features. Nevertheless, this information is available as well: the ABBYY Compreno parser builds the parsing trees for the sentences, where each node is provided with full grammatical and semantic information, namely, morphological and syntactic features (grammemes), syntactic and semantic relations, semantic classes, non-tree links, and so on:
-
-![](img/Aspose.Words.100d08f2-5e68-4f73-8006-21098ad50dcb.005.png)
 
 During the conversion of the ABBYY Compreno markup into the UD format, all the necessary information is taken from the parsing trees. After that, the markup looks as follows:
 
@@ -81,7 +78,7 @@ During the conversion of the ABBYY Compreno markup into the UD format, all the n
 8	.	.	PUNCT	PUNCT	_	2	punct	_	_	_	_
 ```
 
-The final UD-markup includes three levels: morphological, syntactic, and semantic. The UD presentation has its own morphology and syntax, therefore, the corresponding information in the ABBYY Compreno model is converted into the Enhanced UD format. As far as the semantic relations are concerned, the UD format does not have the semantic level, so the information about the SCs and the deep slots is added to the UD markup in the way it is presented in Compreno.
+The UD presentation has its own morphology and syntax, therefore, the corresponding information in the ABBYY Compreno model is converted into the Enhanced UD format. As far as the semantic relations are concerned, the UD format does not have the semantic level, so the information about the SCs and the deep slots is added to the UD markup in the way it is presented in Compreno.
 
 Now let us examine the conversion of morphology and syntax in more detail.
 
