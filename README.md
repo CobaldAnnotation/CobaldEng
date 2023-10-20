@@ -40,14 +40,8 @@ To obtain the corpus annotated in the given format, we have organized the projec
 
 # Corpus Markup
 
-At the first stage, the corpus was annotated with the [ABBYY Compreno semantic markup](https://github.com/compreno-semantics): we obtained the markup automatically with the help of the ABBYY Compreno parser and checked it manually afterwards. Nevertheless, the number of categories in the full ABBYY Compreno markup is rather big: more than 200,000 semantic classes and more than 330 semantic roles, which seems too much both for the machine learning of the semantic parsers on the dataset of the given volume and for a number of application tasks the corpus can be used for.
-
-To make the formalism simpler, we decided to use so-called generalized semantic classes, which denote not exactly the meaning of a word but are hyperonyms for larger word classes. For instance, all words with motion semantics belong to the hyperonym class MOTION, and all words denoting humans &ndash; in the semantic class HUMAN.
-
-More than that, we reduced the number of the semantic roles. For example, full ABBYY Compreno markup suggests different roles for different characteristic dependencies (that is, weight, speed, size, and so on). In the generalized variant, all such characteristics correspond to one characteristical role. Or, the Compreno model has several slots for temporal relations: Time (‘yesterday’, ‘in two days’), Time\_Situation (‘when everybody comes’), Time\_Being (‘in times of Ivan the Terrible’). In the generalized presentation, all these roles correspond to only one Time slot.
-
-As a result, the number of the hyperonym semantic classes used in the markup was reduced to about 650 classes, and the number of the semantic roles to 143 slots.
-
+At the first stage, the corpus was annotated with the [ABBYY Compreno semantic markup](https://github.com/compreno-semantics): we obtained the markup automatically with the help of the ABBYY Compreno parser and checked it manually afterwards. The next step was to convert the Compreno morphosyntax into the Enhanced UD format as there are a lot of asymmetry cases between the UD and Compreno models. The Compreno-to-UD conversion is described below.
+Further, we simplified the original Compreno markup and reduced the number of the SCs from 200,000 to about 650 by using hyperonum classes instead of the whole set of Compreno semantic fields. Besides, be reduced the number of the deep slots from more than 330 to 143 by generalizing Compreno DSs. For example, full ABBYY Compreno markup suggests different roles for different characteristic dependencies (that is, weight, speed, size, and so on). In the generalized variant, all such characteristics correspond to one characteristical role. Or, the Compreno model has several slots for temporal relations: Time (‘yesterday’, ‘in two days’), Time_Situation (‘when everybody comes’), Time_Being (‘in times of Ivan the Terrible’). In the generalized presentation, all these roles correspond to only one Time slot.
 
 # The conversion of the Compreno markup to the UD format
 
@@ -138,10 +132,3 @@ As the Enhanced UD format supposes ellipsis restoration, we have also added this
 17	"	"	PUNCT	PUNCT	_	5	punct	_	_	_	_
 ```
 
-# Main problems and their solutions
-
-As we have indicated above, main problems of the conversion are bound with the following differences between the formats:
-
-(1) The Compreno formalism suggests building constituency trees while UD concerns dependency trees, so the problems with dislocation in Compreno arise;
-
-(2) Another difference is that the UD regards punctuation signs as heads like other tokens, therefore, we had to assign the heads for the punctuation marks automatically.
