@@ -2,7 +2,9 @@
 
 Here is the CoBaLD Eng corpus - a 150,000 token corpus of English news annotated with CoBaLD markup. The corpus uses the CONLL-U Plus standard and includes three markup levels: morphological, syntactic and semantic. Morphosyntax is annotated according to the  [Enhanced UD formalism](https://universaldependencies.org/u/overview/enhanced-syntax.html), and the semantic pattern is based on a simplified version of the Compreno model. Semantic markup consists of word meanings annotation and annotation of the semantic relations between words.
 
-CoBaLD Eng differs from previously annotated CoBaLD Rus [Russian dataset](https://github.com/CobaldAnnotation/CobaldRus) in two aspects. First, the Russian corpus complies with the basic UD principles - not the Enhanced UD. Second, it uses CONLL-U standard with ten columns which is slightly different from CONLL-U Plus, as the latter gives the opportunity to add new columns. In future, Russian corpus will also be transferred to the CONLL-U Plus standard and to the Enhanced UD annotation.
+CoBaLD Eng differs from previously annotated CoBaLD Rus [Russian dataset](https://github.com/CobaldAnnotation/CobaldRus) in two aspects. First, the Russian corpus complies with the basic UD principles - not the Enhanced UD. Second, it uses CONLL-U standard with ten columns which is slightly different from CONLL-U Plus, as the latter gives the opportunity to add new columns. In future, Russian corpus will also be transferred to the CONLL-U Plus standard and to the Enhanced UD annotation. In comparison with basic UD, Enhanced UD process the ellipted nodes, suggests non-tree links such as reference, and handles with
+some syntactic relations, especially with conjunction, in a more logical way than the original UD.
+
 
 <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://img.shields.io/static/v1?label=license&message=CC-BY-NC-4.0&color=green"/></a>
 
@@ -31,9 +33,9 @@ The dataset contains 3 markup levels:
 - syntactic,
 - semantic.
 
-We have chosen the UD markup format as the one which seems the most popular now, however, it does not suggest semantic information. Full semantic markup can be found in the Compreno markup format, which includes word meanings (defined in terms of semantic classes &ndash; semantic fields, provided for each word meaning), and semantic relations between them (which as marked as deeps slots, or semantic roles). We use the [Enhanced UD formalism](https://universaldependencies.org/u/overview/enhanced-syntax.html).
+Our purpose was to obtain a markup based on the Enhanced UD morphosyntax and enriched by the Compreno semantics. In Compreno, word meanings are defined in terms of semantic classes - universal semantic fields, provided for each word meaning. Semantic relations between words are expressed through deeps slots (DSs) - semantic roles, covering all possible semantic relations, both actant (like valencies) and circumstantial (such as adjuncts, characteristics, specifications, and so on). 
 
-To obtain the corpus in the UD format enriched by the semantic markup, we have organized the project pipeline as follows. 
+To obtain the corpus annotated in the given format, we have organized the project pipeline as follows. 
 
 
 # Corpus Markup
