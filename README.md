@@ -59,7 +59,7 @@ markup into the UD format // Computational Linguistics and Intellectual Technolo
 
 The Compreno markup represents constituency trees which can be extracted from the model parser through API. Each token is provided with both its semantic class and the semantic relation with its head.
 
-Parsing trees also include such information as surface, or syntactic, roles, coreference, non-tree links, morphological and syntactic features (grammemes). However, the purpose of the given dataset was only the semantic markup. Nevertheless, surface slots were used in syntax conversion. Besides, in order to comply with the Enhanced UD principles, we extracted one non-tree link - `ref' tag which denotes the connection between a relative pronoun and its antecedent as in the following example:
+Parsing trees also include such information as surface, or syntactic, roles, coreference, non-tree links, morphological and syntactic features (grammemes). The purpose of the given dataset was only the semantic markup. Nevertheless, surface slots were used in syntax conversion. Besides, in order to comply with the Enhanced UD principles, we extracted one non-tree link - `ref' tag which denotes the connection between a relative pronoun and its antecedent as in the following example:
 
 ![ref](https://github.com/CobaldAnnotation/CobaldEng/assets/71529585/2385a6a6-7a0b-4a81-ac75-ba5e1cb44577)
 
