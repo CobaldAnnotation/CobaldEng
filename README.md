@@ -139,3 +139,4 @@ As the Enhanced UD format supposes ellipsis restoration, we have also added this
 
 We are grateful to our team of annotators who checked our automatic conversion and helped us to develop this dataset:
 
+Ekaterina Utkina
