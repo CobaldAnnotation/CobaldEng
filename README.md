@@ -135,3 +135,7 @@ As the Enhanced UD format supposes ellipsis restoration, we have also added this
 17	"	"	PUNCT	PUNCT	_	5	punct	_	_	_	_
 ```
 
+### Acknowledgments
+
+We are grateful to our team of annotators who checked our automatic conversion and helped us to develop this dataset:
+
