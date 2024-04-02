@@ -142,6 +142,6 @@ The code for the conversion for the version 2.0 can be found [here](https://gith
 
 We are grateful to our team of annotators who checked our automatic conversion and helped us to develop this dataset:
 
-Eva Poliakova
-  
-Ekaterina Utkina
+- Eva Poliakova
+- Ekaterina Utkina
+- Grigory Sibilyov
