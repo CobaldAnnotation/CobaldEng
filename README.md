@@ -135,6 +135,9 @@ As the Enhanced UD format supposes ellipsis restoration, we have also added this
 17	"	"	PUNCT	PUNCT	_	5	punct	_	_	_	_
 ```
 
+The code for the conversion for the version 2.0 can be found [here](https://github.com/fortvivlan/Compreno2UD).
+
+
 ### Acknowledgments
 
 We are grateful to our team of annotators who checked our automatic conversion and helped us to develop this dataset:
