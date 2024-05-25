@@ -10,7 +10,17 @@ some syntactic relations, especially with conjunction, in a more logical way tha
 
 ### Citing
 
-The paper is to be published soon
+To cite our corpus, please use
+
+```
+@inproceedings{petrova2024cobald,
+  title={CoBaLD Annotation: The Enrichment of the Enhanced Universal Dependencies with the Semantical Pattern},
+  author={Petrova, Maria Andreevna and Ivoylova, Alexandra M and Tishchenkova, Anastasia},
+  booktitle={Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+  pages={3422--3432},
+  year={2024}
+}
+```
 
 # Contents
 1. [Dataset](#dataset)
