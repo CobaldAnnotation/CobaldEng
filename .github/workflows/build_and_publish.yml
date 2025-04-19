@@ -10,7 +10,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.12
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -30,12 +30,6 @@ jobs:
           HF_HUB_TOKEN: ${{ secrets.HF_HUB_TOKEN }}
         run: |
           huggingface-cli login --token $HF_HUB_TOKEN
-
-      - name: Test Authentication
-        env:
-          HF_HUB_TOKEN: ${{ secrets.HF_HUB_TOKEN }}
-        run: |
-          python -c "from huggingface_hub import HfApi; api = HfApi(); print(api.whoami())"
 
       - name: Build and publish
         run: |
