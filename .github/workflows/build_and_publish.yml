@@ -22,6 +22,12 @@ jobs:
           pip install .
           cd ..
 
+      - name: Test Authentication
+        env:
+          HF_HUB_TOKEN: ${{ secrets.HF_HUB_TOKEN }}
+        run: |
+          python -c "from huggingface_hub import HfApi; api = HfApi(); print(api.whoami())"
+
       - name: Build and publish
         env:
           HF_HUB_TOKEN: ${{ secrets.HF_HUB_TOKEN }}
