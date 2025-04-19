@@ -35,5 +35,5 @@ jobs:
         run: |
           python DatasetTools/build_and_publish.py \
             enhanced/train.conllu \
-            CoBaLD/enhanced-cobald-dataset \
+            CoBaLD/enhanced-cobald \
             en
