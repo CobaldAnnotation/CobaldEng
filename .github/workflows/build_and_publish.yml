@@ -22,6 +22,15 @@ jobs:
           pip install .
           cd ..
 
+      - name: Install Hugging Face CLI
+        run: pip install huggingface_hub
+
+      - name: Login to Hugging Face
+        env:
+          HF_HUB_TOKEN: ${{ secrets.HF_HUB_TOKEN }}
+        run: |
+          huggingface-cli login --token $HF_HUB_TOKEN
+
       - name: Test Authentication
         env:
           HF_HUB_TOKEN: ${{ secrets.HF_HUB_TOKEN }}
@@ -29,7 +38,8 @@ jobs:
           python -c "from huggingface_hub import HfApi; api = HfApi(); print(api.whoami())"
 
       - name: Build and publish
-        env:
-          HF_HUB_TOKEN: ${{ secrets.HF_HUB_TOKEN }}
         run: |
-          python DatasetTools/build_and_publish.py enhanced/train.conllu CoBaLD/enhanced-cobald-dataset en
+          python DatasetTools/build_and_publish.py \
+            enhanced/train.conllu \
+            CoBaLD/enhanced-cobald-dataset \
+            en
