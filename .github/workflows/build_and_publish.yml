@@ -26,4 +26,4 @@ jobs:
         env:
           HF_HUB_TOKEN: ${{ secrets.HF_HUB_TOKEN }}
         run: |
-          python DatasetTools/build_and_publish.py enhanced.conllu CoBaLD/enhanced-cobald-dataset en
+          python DatasetTools/build_and_publish.py enhanced/train.conllu CoBaLD/enhanced-cobald-dataset en
