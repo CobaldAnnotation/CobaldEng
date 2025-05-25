@@ -5015,7 +5015,7 @@
 15	Rover	rover	PROPN	Noun	Number=Sing	16	compound	16:compound	_	Name_Title	TRANSPORT
 16	factory	factory	NOUN	Noun	Number=Sing	11	obl	11:obl:with|23:nsubj	_	Correlative	ORGANIZATION
 17	in	in	ADP	Preposition	_	18	case	18:case	_	_	PREPOSITION
-18	Longbridge	Longbridge	PROPN	Noun	Number=Plur	16	nmod	16:nmod:in	SpaceAfter=No	Locative	IHNABITED_LOCALITY
+18	Longbridge	Longbridge	PROPN	Noun	Number=Plur	16	nmod	16:nmod:in	SpaceAfter=No	Locative	INHABITED_LOCALITY
 19	,	,	PUNCT	PUNCT	_	23	punct	23:punct	_	_	_
 20	which	which	PRON	Pronoun	PronType=Rel	23	nsubj	16:ref	_	Agent	ORGANIZATION
 21	in	in	ADP	Preposition	_	22	case	22:case	_	_	PREPOSITION
@@ -9501,7 +9501,7 @@
 12	Society	society	PROPN	Noun	Number=Sing	13	compound	13:compound	_	Sphere	BEING
 13	Association	association	PROPN	Noun	Number=Sing	3	conj	3:conj:and|17:nsubj	_	Agent	ORGANIZATION
 14	(	(	PUNCT	PUNCT	_	15	punct	15:punct	SpaceAfter=No	_	_
-15	BSA	BSA	PROPN	Noun	Abbr=Yes|Number=Sing	13	parataxis	13:parataxis	SpaceAfter=No	Specification	SOCIAL_INSTITUTION
+15	BSA	BSA	PROPN	Noun	Abbr=Yes|Number=Sing	13	parataxis	13:parataxis	SpaceAfter=No	Specification	ORGANIZATION
 16	)	)	PUNCT	PUNCT	_	15	punct	15:punct	_	_	_
 17	said	say	VERB	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_	Predicate	VERBAL_COMMUNICATION
 18	lending	lending	NOUN	Noun	Number=Sing	19	nsubj	19:nsubj	_	Object_Situation	TO_GIVE
