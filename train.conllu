@@ -299,7 +299,7 @@
 9	bands	band	NOUN	Noun	Number=Plur	4	nmod	4.1:nmod	_	Elective	BEING
 10	of	of	ADP	Preposition	_	12	case	12:case	_	_	PREPOSITION
 11	the	the	DET	Article	Definite=Def|PronType=Art	12	det	12:det	_	_	ARTICLES
-12	1960s	1960s	NOUN	Noun	Number=Sing	9	nmod	9:nmod:of	nmod	Time	TIME
+12	1960s	1960s	NOUN	Noun	Number=Sing	9	nmod	9:nmod:of	_	Time	TIME
 13	,	,	PUNCT	PUNCT	_	15	punct	15:punct	_	_	_
 14	with	with	ADP	Preposition	_	15	case	15:case	_	_	PREPOSITION
 15	hits	hit	NOUN	Noun	Number=Plur	9	nmod	9:nmod:with	_	Part	OBJECT_BY_FUNCTION_AND_PROPERTY
@@ -949,7 +949,7 @@
 14	up	up	ADP	Adverb	_	13	compound:prt	13:compound:prt	_	_	PHRASAL_PARTICLES
 15	in	in	ADP	Preposition	_	17	case	17:case	_	_	PREPOSITION
 16	the	the	DET	Article	Definite=Def|PronType=Art	17	det	17:det	_	_	ARTICLES
-17	1990s	1990s	NOUN	Noun	Number=Sing	13	obl	13:obl:in	obl	Time	TIME
+17	1990s	1990s	NOUN	Noun	Number=Sing	13	obl	13:obl:in	_	Time	TIME
 18	-	-	PUNCT	PUNCT	_	15	punct	15:punct	_	_	_
 19	said	say	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_	Predicate	VERBAL_COMMUNICATION
 20	exemptions	exemption	NOUN	Noun	Number=Plur	23	nsubj:pass	23:nsubj:pass	_	Object	MONEY
@@ -3484,7 +3484,7 @@
 4	somewhat	somewhat	ADV	Adverb	_	3	advmod	3:advmod	_	Degree	CH_DEGREE
 5	in	in	ADP	Preposition	_	7	case	7:case	_	_	PREPOSITION
 6	the	the	DET	Article	Definite=Def|PronType=Art	7	det	7:det	_	_	ARTICLES
-7	1990s	1990s	NOUN	Noun	Number=Sing	3	obl	3:obl:in	obl	Time	TIME
+7	1990s	1990s	NOUN	Noun	Number=Sing	3	obl	3:obl:in	_	Time	TIME
 8	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_	_	_
 
 # sent_id = 8637
@@ -6623,7 +6623,7 @@
 24	Nintendo	Nintendo	PROPN	Noun	Number=Sing	25	compound	25:compound	_	Agent	ORGANIZATION
 25	GameBoy	GameBoy	PROPN	Noun	Number=Sing	17	conj	14:obj|17:conj	_	Object	APPARATUS
 26	(	(	PUNCT	PUNCT	_	27	punct	27:punct	SpaceAfter=No	_	_
-27	25th	25th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	25	parataxis	27.1:amod	amod	_	ENDINGS
+27	25th	25th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	25	parataxis	27.1:amod	_	_	ENDINGS
 27.1	#NULL	#NULL	NOUN	Noun	Number=Plur	_	_	25:parataxis	ellipsis	Specification	APPARATUS
 28	)	)	PUNCT	PUNCT	_	27	punct	27:punct	SpaceAfter=No	_	_
 29	,	,	PUNCT	PUNCT	_	25	punct	25:punct	_	_	_
@@ -6634,7 +6634,7 @@
 34	digital	digital	ADJ	Adjective	Degree=Pos	35	amod	35:amod	_	FormOfRepresentation	CH_OF_VISUAL_AUDIBLE_REPRESENTATION
 35	watch	watch	NOUN	Noun	Number=Sing	17	conj	14:obj|17:conj:and	_	Object	DEVICE_FOR_MEASURING_AND_COUNTING
 36	(	(	PUNCT	PUNCT	_	37	punct	37:punct	SpaceAfter=No	_	_
-37	36th	36th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	35	parataxis	37.1:amod	amod	_	ENDINGS
+37	36th	36th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	35	parataxis	37.1:amod	_	_	ENDINGS
 37.1	#NULL	#NULL	NOUN	Noun	Number=Plur	_	_	35:parataxis	ellipsis	Specification	DEVICE_FOR_MEASURING_AND_COUNTING
 38	)	)	PUNCT	PUNCT	_	37	punct	37:punct	SpaceAfter=No	_	_
 39	.	.	PUNCT	PUNCT	_	14	punct	14:punct	_	_	_
@@ -6696,7 +6696,7 @@
 22	take	take	VERB	Verb	VerbForm=Inf	20	advcl	20:advcl:to	_	Purpose	TO_COMMIT
 23	control	control	NOUN	Noun	Number=Sing	22	obj	22:obj	_	Object_Situation	HIERARCHICAL_VERBS
 24	of	of	ADP	Preposition	_	26	case	26:case	_	_	PREPOSITION
-25	unprotected	unprotect	VERB	Verb	Tense=Past|VerbForm=Part	26	acl	26:acl	acl	ParticipleRelativeClause	DEFEND_SAVE
+25	unprotected	unprotect	VERB	Verb	Tense=Past|VerbForm=Part	26	acl	26:acl	_	ParticipleRelativeClause	DEFEND_SAVE
 26	machines	machine	NOUN	Noun	Number=Plur	23	nmod	23:nmod:of	_	Object	APPARATUS
 27	through	through	ADP	Preposition	_	29	case	29:case	_	_	PREPOSITION
 28	.png	#URL	PROPN	Noun	Number=Sing	29	compound	29:compound	_	Name_Title	CH_DISPOSITION_AND_MOTION
@@ -9121,7 +9121,7 @@
 6	by	by	ADP	Preposition	_	9	case	9:case	_	_	PREPOSITION
 7	the	the	DET	Article	Definite=Def|PronType=Art	9	det	9:det	_	_	ARTICLES
 8	talismanic	talismanic	NOUN	Noun	Number=Sing	9	compound	9:compound	_	Sphere	CH_EVALUATION
-9	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	5	obl	5:obl:by	flatname	Agent	BEING
+9	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	5	obl	5:obl:by	_	Agent	BEING
 10	,	,	PUNCT	PUNCT	_	11	punct	11:punct	_	_	_
 11	back	back	ADJ	Adjective	Degree=Pos	9	advmod	9:advmod	_	Locative	CH_DISPOSITION_AND_MOTION
 12	from	from	ADP	Preposition	_	14	case	14:case	_	_	PREPOSITION
@@ -9793,7 +9793,7 @@
 21	blue	blue	ADJ	_	Degree=Pos	16	advmod	16:advmod	_	Characteristic	MODALITY
 22	in	in	ADP	Preposition	_	25	case	25:case	_	_	PREPOSITION
 23	the	the	DET	Article	Definite=Def|PronType=Art	25	det	25:det	_	_	ARTICLES
-24	11th	11th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	25	amod	25:amod	amod	_	ENDINGS
+24	11th	11th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	25	amod	25:amod	_	_	ENDINGS
 25	minute	minute	NOUN	Noun	Number=Sing	16	obl	16:obl:in	SpaceAfter=No	Time	TIME
 26	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_	_	_
 
@@ -12668,7 +12668,7 @@
 1	Raymond	Raymond	PROPN	Noun	Number=Sing	9	nsubj:pass	9:nsubj:pass	SpaceAfter=No	Object	BEING
 2	,	,	PUNCT	PUNCT	_	6	punct	6:punct	_	_	_
 3	the	the	DET	Article	Definite=Def|PronType=Art	6	det	6:det	_	_	ARTICLES
-4	25th	25th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	6	amod	6:amod	amod	_	ENDINGS
+4	25th	25th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	6	amod	6:amod	_	_	ENDINGS
 5	seeded	seed	VERB	Verb	Tense=Past|VerbForm=Part	6	acl	6:acl	_	ParticipleRelativeClause	CHOOSING_SORTING
 6	American	American	PROPN	Noun	Number=Sing	1	appos	1:appos	SpaceAfter=No	Specification	BEING
 7	,	,	PUNCT	PUNCT	_	3	punct	3:punct	_	_	_
@@ -12851,7 +12851,7 @@
 10	to	to	ADP	Preposition	_	14	case	14:case	_	_	PREPOSITION
 11	the	the	DET	Article	Definite=Def|PronType=Art	14	det	14:det	_	_	ARTICLES
 12	secret	secret	ADJ	Adjective	Degree=Pos	14	amod	14:amod	_	Characteristic	CH_INFORMATION
-13	16th	16th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	14	amod	14:amod	amod	_	ENDINGS
+13	16th	16th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	14	amod	14:amod	_	_	ENDINGS
 14	directorate	directorate	NOUN	Noun	Number=Sing	9	obl	9:obl:to|17:nsubj	_	Locative_FinalPoint	ORGANIZATION
 15	-	-	PUNCT	PUNCT	_	17	punct	17:punct	_	_	_
 16	which	which	PRON	Pronoun	PronType=Rel	17	nsubj	14:ref	_	Agent	ORGANIZATION
@@ -15269,7 +15269,7 @@
 11	from	from	ADP	Preposition	_	12	case	12:case	_	_	PREPOSITION
 12	1731	1731	NOUN	Noun	Number=Sing	10	nmod	10:nmod:from	_	Time	TIME
 13	(	(	PUNCT	PUNCT	_	15	punct	15:punct	SpaceAfter=No	_	_
-14	59th	59th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	15	amod	15:amod	amod	_	ENDINGS
+14	59th	59th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	15	amod	15:amod	_	_	ENDINGS
 15	position	position	NOUN	Noun	Number=Sing	10	parataxis	10:parataxis	SpaceAfter=No	Specification	POSITION_AS_STATUS
 16	)	)	PUNCT	PUNCT	_	15	punct	15:punct	SpaceAfter=No	_	_
 17	,	,	PUNCT	PUNCT	_	37	punct	37:punct	_	_	_
@@ -15291,7 +15291,7 @@
 33	from	from	ADP	Preposition	_	34	case	34:case	_	_	PREPOSITION
 34	1900	1900	NOUN	Noun	Number=Sing	32	nmod	32:nmod:from	_	Time	TIME
 35	(	(	PUNCT	PUNCT	_	37	punct	37:punct	SpaceAfter=No	_	_
-36	28th	28th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	37	amod	37:amod	amod	_	ENDINGS
+36	28th	28th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	37	amod	37:amod	_	_	ENDINGS
 37	position	position	NOUN	Noun	Number=Sing	8	parataxis	8:parataxis	SpaceAfter=No	Specification	POSITION_AS_STATUS
 38	)	)	PUNCT	PUNCT	_	37	punct	37:punct	SpaceAfter=No	_	_
 39	.	.	PUNCT	PUNCT	_	8	punct	8:punct	_	_	_
@@ -20511,7 +20511,7 @@
 7	real	real	ADJ	Adjective	Degree=Pos	8	amod	8:amod	_	Characteristic	MODALITY
 8	threat	threat	NOUN	Noun	Number=Sing	5	obj	5:obj	_	Object_Situation	RISK_DANGER
 9	was	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	10:cop	_	Predicate	BE
-10	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	0	root	0:root	flatname	Correlative	BEING
+10	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	0	root	0:root	_	Correlative	BEING
 11	,	,	PUNCT	PUNCT	_	12	punct	12:punct	_	_	_
 12	and	and	CCONJ	Conjunction	_	10	conj	0:root|10:conj	_	_	COORDINATING_CONJUNCTIONS
 13	it	it	PRON	Pronoun	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	_	Empty_Subject_It	EMPTY_SUBJECT
@@ -21222,7 +21222,7 @@
 23	to	to	ADP	Preposition	_	24	mark	24:mark	_	_	PARTICLES
 24	mark	mark	VERB	Verb	VerbForm=Inf	22	acl	22:acl:to	_	Purpose	TO_GIVE
 25	the	the	DET	Article	Definite=Def|PronType=Art	27	det	27:det	_	_	ARTICLES
-26	70th	70th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	27	amod	27:amod	amod	_	ENDINGS
+26	70th	70th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	27	amod	27:amod	_	_	ENDINGS
 27	anniversary	anniversary	NOUN	Noun	Number=Sing	24	obj	24:obj	_	Possessor_Metaphoric	ARRANGEMENTS
 28	of	of	ADP	Preposition	_	31	case	31:case	_	_	PREPOSITION
 29-30	Presley's	_	_	_	_	_	_	_	_	_	_
@@ -23255,7 +23255,7 @@
 1	Wolves	wolf	NOUN	Noun	Number=Plur	4	nsubj	4.1:nsubj	_	Relative	BEING
 2	are	be	AUX	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4.1:cop	_	Predicate	BE
 3	currently	currently	ADV	Adverb	_	4	advmod	4.1:advmod	_	Time	CH_REFERENCE_AND_QUANTIFICATION
-4	17th	17th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	0	root	4.1:amod	amod	_	ENDINGS
+4	17th	17th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	0	root	4.1:amod	_	_	ENDINGS
 4.1	#NULL	#NULL	NOUN	Noun	Number=Plur	_	_	0:root	ellipsis	Correlative	BEING
 5	in	in	ADP	Preposition	_	7	case	7:case	_	_	PREPOSITION
 6	the	the	DET	Article	Definite=Def|PronType=Art	7	det	7:det	_	_	ARTICLES
@@ -28542,7 +28542,7 @@
 
 # sent_id = 4415
 # text = Un clogging Beijing's increasingly impassable streets is a major concern for the Chinese authorities, who are building dozens of new roads to create a showcase modern city ahead of the 2008 Olympic Games.
-1	Unclogging	Unclog	VERB	Verb	VerbForm=Ger	10	nsubj	10:nsubj	nsubj	Relative	TO_CLOSE
+1	Unclogging	Unclog	VERB	Verb	VerbForm=Ger	10	nsubj	10:nsubj	_	Relative	TO_CLOSE
 2-3	Beijing's	_	_	_	_	_	_	_	_	_	_
 2	Beijing	Beijing	PROPN	Noun	Number=Sing	6	nmod:poss	6:nmod:poss	_	Possessor	INHABITED_LOCALITY
 3	's	's	PART	_	_	2	case	2:case	_	_	_
@@ -32283,7 +32283,7 @@
 25	and	and	CCONJ	Conjunction	_	27	cc	27:cc	_	_	COORDINATING_CONJUNCTIONS
 26	bank	bank	NOUN	Noun	Number=Sing	27	compound	27:compound	_	Agent	ORGANIZATION
 27	statements	statement	NOUN	Noun	Number=Plur	22	conj	21:obj|22:conj:and	_	Object	DOCUMENT
-28	unshredded	unshred	VERB	Verb	Tense=Past|VerbForm=Part	21	xcomp	21:xcomp	xcomp	Concurrent_Complement	DESTRUCTION_VERBS
+28	unshredded	unshred	VERB	Verb	Tense=Past|VerbForm=Part	21	xcomp	21:xcomp	_	Concurrent_Complement	DESTRUCTION_VERBS
 29	in	in	ADP	Preposition	_	31	case	31:case	_	_	PREPOSITION
 30	our	our	PRON	Pronoun	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	_	Possessor	BEING
 31	rubbish	rubbish	NOUN	Noun	Number=Sing	21	obl	21:obl:in	SpaceAfter=No	Locative	OBJECT_BY_FUNCTION_AND_PROPERTY
@@ -32752,7 +32752,7 @@
 14	places	place	NOUN	Noun	Number=Plur	10	nmod	10:nmod:for	_	Motive	PLACE
 15	from	from	ADP	Preposition	_	16	case	16:case	_	_	PREPOSITION
 16	Brian	Brian	PROPN	Noun	Number=Sing	10	nmod	10:nmod:from	_	ContrAgent	BEING
-17	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	16	compound	16:compound	flat:name	Name_Title	BEING
+17	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	16	compound	16:compound	_	Name_Title	BEING
 18	,	,	PUNCT	PUNCT	_	19	punct	19:punct	_	_	_
 19	Gordon	Gordon	PROPN	Noun	Number=Sing	16	conj	10:nmod:from|16:conj	_	ContrAgent	BEING
 20	D'Arcy	D'Arcy	PROPN	Noun	Number=Sing	19	flat:name	19:flat:name	_	Name_Title	BEING
@@ -35401,7 +35401,7 @@
 21	steal	steal	VERB	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	18:acl:relcl	SpaceAfter=No	ParticipleRelativeClause	TO_TAKE
 22	,	,	PUNCT	PUNCT	_	26	punct	26:punct	_	_	_
 23	since	since	ADP	Preposition	_	26	case	26:case	_	_	PREPOSITION
-24	undeclared	undeclare	VERB	Verb	Tense=Past|VerbForm=Part	25	acl	25:acl	acl	ParticipleRelativeClause	TO_SET
+24	undeclared	undeclare	VERB	Verb	Tense=Past|VerbForm=Part	25	acl	25:acl	_	ParticipleRelativeClause	TO_SET
 25	income	income	NOUN	Noun	Number=Sing	26	nsubj	26:nsubj	_	Object	MONEY
 26	becomes	become	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	16:advcl	_	Time	BE
 27	relatively	relatively	ADV	Adverb	_	29	advmod	29:advmod	_	DegreeNumerative	CH_DEGREE
@@ -35846,7 +35846,7 @@
 15	soap	soap	NOUN	Noun	Number=Sing	11	obl	11:obl:into	_	Locative_FinalPoint	SUBSTANCE
 16	in	in	ADP	Preposition	_	18	case	18:case	_	_	PREPOSITION
 17	the	the	DET	Article	Definite=Def|PronType=Art	18	det	18:det	_	_	ARTICLES
-18	1980s	1980s	NOUN	Noun	Number=Sing	15	nmod	15:nmod:in	nmod	Time	TIME
+18	1980s	1980s	NOUN	Noun	Number=Sing	15	nmod	15:nmod:in	_	Time	TIME
 19	,	,	PUNCT	PUNCT	_	20	punct	20:punct	_	_	_
 20	starring	star	VERB	Verb	VerbForm=Ger	15	acl	15:acl	_	ParticipleRelativeClause	TO_PERFORM
 21	James	James	PROPN	Noun	Number=Sing	20	obj	20:obj	_	Agent	BEING
@@ -35901,7 +35901,7 @@
 29	"	"	PUNCT	PUNCT	_	30	punct	30:punct	SpaceAfter=No	_	_
 30	wild	wild	ADJ	Adjective	Degree=Pos	32	amod	32:amod	SpaceAfter=No	Characteristic	EMOTIONS_AND_THEIR_EXPRESSION
 31	"	"	PUNCT	PUNCT	_	30	punct	30:punct	_	_	_
-32	1960s	1960s	NOUN	Noun	Number=Sing	25	nmod	25:nmod:during	nmod	Time	TIME
+32	1960s	1960s	NOUN	Noun	Number=Sing	25	nmod	25:nmod:during	_	Time	TIME
 33	.	.	PUNCT	PUNCT	_	6	punct	6:punct	_	_	_
 
 # sent_id = 3201
@@ -37956,7 +37956,7 @@
 # sent_id = 4747
 # text = The 98 th and final episode of Star Trek: Enterprise will air in the US on 13 May.
 1	The	the	DET	Article	Definite=Def|PronType=Art	5	det	5:det	_	_	ARTICLES
-2	98th	98th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	5	amod	5:amod	amod	_	ENDINGS
+2	98th	98th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	5	amod	5:amod	_	_	ENDINGS
 3	and	and	CCONJ	Conjunction	_	4	cc	4:cc	_	_	COORDINATING_CONJUNCTIONS
 4	final	final	ADJ	Adjective	Degree=Pos	2	conj	1:conj:and|5:amod	_	OrderInTimeAndSpace	CH_REFERENCE_AND_QUANTIFICATION
 5	episode	episode	NOUN	Noun	Number=Sing	0	root	0:root	_	Predicate_Noun	PART_OF_CREATIVE_WORK
@@ -38681,7 +38681,7 @@
 13	the	the	DET	Article	Definite=Def|PronType=Art	16	det	16:det	_	_	ARTICLES
 14	mid	mid	ADJ	Prefixoid	_	16	compound	16:compound	_	Characteristic	PROCESS_AND_ITS_STAGES
 15	-	-	PUNCT	PUNCT	_	16	punct	16:punct	_	_	_
-16	1990s	1990s	NOUN	Noun	Number=Sing	11	nmod	11:nmod:in	nmod	Time	TIME
+16	1990s	1990s	NOUN	Noun	Number=Sing	11	nmod	11:nmod:in	_	Time	TIME
 17	.	.	PUNCT	PUNCT	_	8	punct	8:punct	_	_	_
 
 # sent_id = 2344
@@ -39061,7 +39061,7 @@
 2	The	the	DET	Article	Definite=Def|PronType=Art	3	det	3:det	_	_	ARTICLES
 3	government	government	NOUN	Noun	Number=Sing	5	nsubj	5:nsubj	_	Possessor	ORGANIZATION
 4	is	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_	_	AUXILIARY_VERBS
-5	renationalising	renationalise	VERB	Verb	Tense=Pres|VerbForm=Part	0	root	0:root	root	Predicate	TO_TAKE
+5	renationalising	renationalise	VERB	Verb	Tense=Pres|VerbForm=Part	0	root	0:root	_	Predicate	TO_TAKE
 6	Yuganskneftegas	Yuganskneftegas	PROPN	Noun	Number=Plur	5	obj	5:obj	SpaceAfter=No	Object	ORGANIZATION
 7	.	.	PUNCT	PUNCT	_	5	punct	5:punct	SpaceAfter=No	_	_
 8	"	"	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
@@ -39251,7 +39251,7 @@
 5	is	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_	_	AUXILIARY_VERBS
 6	celebrating	celebrate	VERB	Verb	Tense=Pres|VerbForm=Part	2	acl:relcl	2:acl:relcl	_	ParticipleRelativeClause	TO_CELEBRATE
 7	its	its	PRON	Pronoun	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	Object	OBJECT_BY_FUNCTION_AND_PROPERTY
-8	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	amod	9:amod	amod	_	ENDINGS
+8	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	amod	9:amod	_	_	ENDINGS
 9	year	year	NOUN	Noun	Number=Sing	6	obj	6:obj	SpaceAfter=No	Object	TIME
 10	,	,	PUNCT	PUNCT	_	7	punct	7:punct	_	_	_
 11	is	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_	_	AUXILIARY_VERBS
@@ -39402,7 +39402,7 @@
 4	until	until	ADP	Preposition	_	7	case	7:case	_	_	PREPOSITION
 5	the	the	DET	Article	Definite=Def|PronType=Art	7	det	7:det	_	_	ARTICLES
 6	early	early	ADJ	Adjective	Degree=Pos	7	amod	7:amod	_	Time	CH_REFERENCE_AND_QUANTIFICATION
-7	1990s	1990s	NOUN	Noun	Number=Sing	3	obl	3:obl:until	obl	Time	TIME
+7	1990s	1990s	NOUN	Noun	Number=Sing	3	obl	3:obl:until	_	Time	TIME
 8	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_	_	_
 
 # sent_id = 2924
@@ -40309,7 +40309,7 @@
 19	Dane	Dane	PROPN	Noun	Number=Sing	12	obj	12:obj	SpaceAfter=No	Experiencer	BEING
 20	,	,	PUNCT	PUNCT	_	21	punct	21:punct	_	_	_
 21	ranked	rank	VERB	Verb	Tense=Past|VerbForm=Part	19	acl	19:acl	_	ParticipleRelativeClause	CHOOSING_SORTING
-22	88th	88th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	21	xcomp	21:xcomp	amod	_	ENDINGS
+22	88th	88th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	21	xcomp	21:xcomp	_	_	ENDINGS
 23	in	in	ADP	Preposition	_	25	case	25:case	_	_	PREPOSITION
 24	the	the	DET	Article	Definite=Def|PronType=Art	25	det	25:det	_	_	ARTICLES
 25	world	world	NOUN	Noun	Number=Sing	21	obl	21:obl:in	SpaceAfter=No	Locative	COSMOS_AND_COSMIC_OBJECTS
@@ -40887,7 +40887,7 @@
 1	Umaga	Umaga	PROPN	Noun	Number=Sing	3	nsubj	3:nsubj	_	Possessor_Metaphoric	BEING
 2	will	will	AUX	Verb	VerbForm=Fin	3	aux	3:aux	_	_	AUXILIARY_VERBS
 3	meet	meet	VERB	Verb	VerbForm=Inf	0	root	0:root	_	Predicate	TO_SEEK_FIND
-4	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	3	obj	3:obj	flatname	Object	BEING
+4	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	3	obj	3:obj	_	Object	BEING
 5	in	in	ADP	Preposition	_	10	case	10:case	_	_	PREPOSITION
 6-7	Saturday's	_	_	_	_	_	_	_	_	_	_
 6	Saturday	Saturday	PROPN	Noun	Number=Sing	10	nmod:poss	10:nmod:poss	_	Time	TIME
@@ -42419,7 +42419,7 @@
 30	sitcoms	sitcom	NOUN	Noun	Number=Plur	26	nmod	26.1:nmod	_	Elective	CREATIVE_WORK_BY_GENRE
 31	of	of	ADP	Preposition	_	33	case	33:case	_	_	PREPOSITION
 32	the	the	DET	Article	Definite=Def|PronType=Art	33	det	33:det	_	_	ARTICLES
-33	1980s	1980s	NOUN	Noun	Number=Sing	30	nmod	30:nmod:of	nmod	Time	TIME
+33	1980s	1980s	NOUN	Noun	Number=Sing	30	nmod	30:nmod:of	_	Time	TIME
 34	.	.	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
 
 # sent_id = 6089
@@ -44421,9 +44421,9 @@
 17	happening	happen	VERB	Verb	Tense=Pres|VerbForm=Part	15	acl:relcl	15:acl:relcl	_	ParticipleRelativeClause	END_TO_TAKE_PLACE
 18	in	in	ADP	Preposition	_	20	case	20:case	_	_	PREPOSITION
 19	the	the	DET	Article	Definite=Def|PronType=Art	20	det	20:det	_	_	ARTICLES
-20	1940s	1940s	NOUN	Noun	Number=Sing	17	obl	17:obl:in	obl	Time	TIME
+20	1940s	1940s	NOUN	Noun	Number=Sing	17	obl	17:obl:in	_	Time	TIME
 21	and	and	CCONJ	Conjunction	_	22	cc	22:cc	_	_	COORDINATING_CONJUNCTIONS
-22	50s	50s	NOUN	Noun	Number=Sing	20	conj	17:obl:in|19:conj:and	conj	Time	TIME
+22	50s	50s	NOUN	Noun	Number=Sing	20	conj	17:obl:in|19:conj:and	_	Time	TIME
 23	in	in	ADP	Preposition	_	24	case	24:case	_	_	PREPOSITION
 24	relation	relation	NOUN	Noun	Number=Sing	13	obl	13:obl:in	_	Characteristic	CH_OF_CONNECTIONS
 25	to	to	ADP	Preposition	_	26	case	26:case	_	_	PREPOSITION
@@ -46465,7 +46465,7 @@
 9	-	-	PUNCT	PUNCT	_	10	punct	10:punct	_	_	_
 10	mixing	mix	VERB	Verb	VerbForm=Ger	6	advcl	6:advcl	_	Concurrent	TO_MIX
 11	19	19	NUM	Numeral	NumForm=Digit|NumType=Card	13	nummod	13:nummod	_	Quantity	CH_REFERENCE_AND_QUANTIFICATION
-12	unforced	unforce	VERB	Verb	Tense=Past|VerbForm=Part	13	acl	13:acl	acl	ParticipleRelativeClause	TO_COMPEL_AND_EVOKE
+12	unforced	unforce	VERB	Verb	Tense=Past|VerbForm=Part	13	acl	13:acl	_	ParticipleRelativeClause	TO_COMPEL_AND_EVOKE
 13	errors	error	NOUN	Noun	Number=Plur	10	obj	10:obj	_	ContrObject	MANAGE_FAIL_CONDITION
 14	with	with	ADP	Preposition	_	16	case	16:case	_	_	PREPOSITION
 15	19	19	NUM	Numeral	NumForm=Digit|NumType=Card	16	nummod	16:nummod	_	Quantity	CH_REFERENCE_AND_QUANTIFICATION
@@ -48792,7 +48792,7 @@
 16	sold	sell	VERB	Verb	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_	Predicate	TO_GIVE
 17	to	to	ADP	Preposition	_	20	case	20:case	_	_	PREPOSITION
 18	an	an	DET	Article	Definite=Ind|PronType=Art	20	det	20:det	_	_	ARTICLES
-19	undisclosed	undisclose	VERB	Verb	Tense=Past|VerbForm=Part	20	acl	20:acl	acl	ParticipleRelativeClause	REVEAL_CONCEAL_INFORMATION
+19	undisclosed	undisclose	VERB	Verb	Tense=Past|VerbForm=Part	20	acl	20:acl	_	ParticipleRelativeClause	REVEAL_CONCEAL_INFORMATION
 20	bidder	bidder	NOUN	Noun	Number=Sing	16	obl	16:obl:to	_	Possessor	BEING
 21	at	at	ADP	Preposition	_	22	case	22:case	_	_	PREPOSITION
 22	auction	auction	NOUN	Noun	Number=Sing	16	obl	16:obl:at	_	Time	ARRANGEMENTS
@@ -53187,7 +53187,7 @@
 4	placed	place	VERB	Verb	Tense=Past|VerbForm=Part	5	acl	5:acl	_	ParticipleRelativeClause	TO_CHARACTERIZE
 5	serve	serve	NOUN	Noun	Number=Sing	7	nsubj	7:nsubj	_	Object_Situation	MOTION
 6	is	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_	Predicate	BE
-7	unreturnable	unreturnable	ADJ	Adjective	Degree=Pos	0	root	0:root	root	State	TO_GIVE
+7	unreturnable	unreturnable	ADJ	Adjective	Degree=Pos	0	root	0:root	_	State	TO_GIVE
 8	and	and	CCONJ	Conjunction	_	10	cc	10:cc	_	_	COORDINATING_CONJUNCTIONS
 9	Roddick	Roddick	PROPN	Noun	Number=Sing	10	nsubj	10:nsubj	_	Agent	BEING
 10	holds	hold	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	0:root|7:conj:and	SpaceAfter=No	Predicate	ORIENTATION_IN_SPACE
@@ -53915,7 +53915,7 @@
 13	attached	attach	VERB	Verb	Tense=Past|VerbForm=Part	11	acl	11:acl	_	ParticipleRelativeClause	CH_OF_CONNECTIONS
 14	to	to	ADP	Preposition	_	17	case	17:case	_	_	PREPOSITION
 15	the	the	DET	Article	Definite=Def|PronType=Art	17	det	17:det	_	_	ARTICLES
-16	unauthorised	unauthorise	VERB	Verb	Tense=Past|VerbForm=Part	17	acl	17:acl	acl	ParticipleRelativeClause	VERBAL_COMMUNICATION
+16	unauthorised	unauthorise	VERB	Verb	Tense=Past|VerbForm=Part	17	acl	17:acl	_	ParticipleRelativeClause	VERBAL_COMMUNICATION
 17	use	use	NOUN	Noun	Number=Sing	13	obl	13:obl:to	_	Correlative	TO_USE
 18	of	of	ADP	Preposition	_	20	case	20:case	_	_	PREPOSITION
 19	Delta	Delta	PROPN	Noun	Number=Sing	20	compound	20:compound	_	Agent	ORGANIZATION
@@ -58690,7 +58690,7 @@
 8	from	from	ADP	Preposition	_	9	case	9:case	_	_	PREPOSITION
 9	fourth	fourth	ADJ	Numeral	Degree=Pos|NumForm=Word|NumType=Ord	7	appos	7:appos	_	Interval_Beginning	TIME
 10	to	to	ADP	Preposition	_	11	case	11:case	_	_	PREPOSITION
-11	11th	11th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	nummod	9:nummod	amod	_	ENDINGS
+11	11th	11th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	nummod	9:nummod	_	_	ENDINGS
 12	in	in	ADP	Preposition	_	17	case	17:case	_	_	PREPOSITION
 13	the	the	DET	Article	Definite=Def|PronType=Art	17	det	17:det	_	_	ARTICLES
 14	international	international	ADJ	Adjective	Degree=Pos	17	amod	17:amod	_	Characteristic	COUNTRY_AS_ADMINISTRATIVE_UNIT
@@ -59066,9 +59066,9 @@
 8	and	and	CCONJ	Conjunction	_	16	cc	16:cc	_	_	COORDINATING_CONJUNCTIONS
 9	in	in	ADP	Preposition	_	11	case	11:case	_	_	PREPOSITION
 10	the	the	DET	Article	Definite=Def|PronType=Art	11	det	11:det	_	_	ARTICLES
-11	1950s	1950s	NOUN	Noun	Number=Sing	16	obl	16:obl:in	obl	Time	TIME
+11	1950s	1950s	NOUN	Noun	Number=Sing	16	obl	16:obl:in	_	Time	TIME
 12	and	and	CCONJ	Conjunction	_	13	cc	13:cc	_	_	COORDINATING_CONJUNCTIONS
-13	60s	60s	NOUN	Noun	Number=Sing	11	conj	10:conj:and|16:obl:in	conj	Time	TIME
+13	60s	60s	NOUN	Noun	Number=Sing	11	conj	10:conj:and|16:obl:in	_	Time	TIME
 14	,	,	PUNCT	PUNCT	_	16	punct	16:punct	_	_	_
 15	they	they	PRON	Pronoun	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj	_	Agent	BEING
 16	produced	produce	VERB	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	0:root|2:conj:and	_	Predicate	CREATION_VERBS
@@ -61388,7 +61388,7 @@
 3	also	also	ADV	Adverb	_	4	advmod	4:advmod	_	Addition	DISCOURSIVE_UNITS
 4	made	make	VERB	Verb	Tense=Past|VerbForm=Part	0	root	0:root	_	Predicate	TO_COMMIT
 5	an	an	DET	Article	Definite=Ind|PronType=Art	7	det	7:det	_	_	ARTICLES
-6	undisclosed	undisclose	VERB	Verb	Tense=Past|VerbForm=Part	7	acl	7:acl	acl	ParticipleRelativeClause	REVEAL_CONCEAL_INFORMATION
+6	undisclosed	undisclose	VERB	Verb	Tense=Past|VerbForm=Part	7	acl	7:acl	_	ParticipleRelativeClause	REVEAL_CONCEAL_INFORMATION
 7	offer	offer	NOUN	Noun	Number=Sing	4	obj	4:obj	_	Object	RESULTS_OF_GIVING_INFORMATION_AND_SPEECH_ACTIVITY
 8	for	for	ADP	Preposition	_	14	case	14:case	_	_	PREPOSITION
 9	21	21	NUM	Numeral	NumForm=Digit|NumType=Card	11	compound	11:compound	_	Quantity	CH_REFERENCE_AND_QUANTIFICATION
@@ -64995,7 +64995,7 @@
 11	inflation	inflation	NOUN	Noun	Number=Sing	8	obj	8:obj	_	Object_Situation	ECONOMIC_CHANGES
 12	since	since	ADP	Preposition	_	14	case	14:case	_	_	PREPOSITION
 13	the	the	DET	Article	Definite=Def|PronType=Art	14	det	14:det	_	_	ARTICLES
-14	1960s	1960s	NOUN	Noun	Number=Sing	11	nmod	11:nmod:since	nmod	Time	TIME
+14	1960s	1960s	NOUN	Noun	Number=Sing	11	nmod	11:nmod:since	_	Time	TIME
 15	,	,	PUNCT	PUNCT	_	17	punct	17:punct	_	_	_
 16	lowest	low	ADJ	Adjective	Degree=Sup	17	amod	17:amod	_	Degree	CH_DEGREE
 17	unemployment	unemployment	NOUN	Noun	Number=Sing	11	conj	8:obj|11:conj	_	Object_Situation	SOCIAL_CONDITIONS_OF_BEING
@@ -65304,7 +65304,7 @@
 1	Like	like	ADV	Adverb	_	7	parataxis	7:parataxis	_	Parenthetical	CH_OF_CONNECTIONS
 2	skipper	skipper	NOUN	Noun	Number=Sing	1	obl	1:obl	_	Correlative	BEING
 3	Brian	Brian	PROPN	Noun	Number=Sing	2	appos	2:appos	_	Name_Title	BEING
-4	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	3	compound	3:compound	flat:name	Name_Title	BEING
+4	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	3	compound	3:compound	_	Name_Title	BEING
 5	,	,	PUNCT	PUNCT	_	1	punct	1:punct	_	_	_
 6	D'Arcy	D'Arcy	PROPN	Noun	Number=Sing	7	nsubj	7:nsubj|9:nsubj:xsubj	_	Experiencer_Metaphoric	BEING
 7	failed	fail	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_	Predicate	MANAGE_FAIL_CONDITION
@@ -68598,7 +68598,7 @@
 11	was	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	12:aux	_	_	AUXILIARY_VERBS
 12	planning	plan	VERB	Verb	Tense=Pres|VerbForm=Part	8	ccomp	8:ccomp	_	Object_Situation	MODALITY
 13	to	to	ADP	Preposition	_	14	mark	14:mark	_	_	PARTICLES
-14	renationalise	renationalise	VERB	Verb	VerbForm=Inf	12	xcomp	12:xcomp	xcomp	Object_Situation	TO_TAKE
+14	renationalise	renationalise	VERB	Verb	VerbForm=Inf	12	xcomp	12:xcomp	_	Object_Situation	TO_TAKE
 15	3,000	3,000	NUM	Numeral	NumForm=Digit|NumType=Card	16	nummod	16:nummod	_	Quantity	CH_REFERENCE_AND_QUANTIFICATION
 16	firms	firm	NOUN	Noun	Number=Plur	14	obj	14:obj	SpaceAfter=No	Object	ORGANIZATION
 17	.	.	PUNCT	PUNCT	_	8	punct	8:punct	_	_	_
@@ -70931,7 +70931,7 @@
 18	Group	group	PROPN	Noun	Number=Sing	14	obl	14:obl:by	_	Possessor	ORGANIZATION
 19	for	for	ADP	Preposition	_	22	case	22:case	_	_	PREPOSITION
 20	an	an	DET	Article	Definite=Ind|PronType=Art	22	det	22:det	_	_	ARTICLES
-21	unspecified	unspecify	VERB	Verb	Tense=Past|VerbForm=Part	22	acl	22:acl	acl	ParticipleRelativeClause	VERBAL_COMMUNICATION
+21	unspecified	unspecify	VERB	Verb	Tense=Past|VerbForm=Part	22	acl	22:acl	_	ParticipleRelativeClause	VERBAL_COMMUNICATION
 22	sum	sum	NOUN	Noun	Number=Sing	14	obl	14:obl:for	SpaceAfter=No	Ch_Parameter	MONEY
 23	.	.	PUNCT	PUNCT	_	2	punct	2:punct	_	_	_
 
@@ -73545,7 +73545,7 @@
 10	to	to	ADP	Preposition	_	12	mark	12:mark	_	_	PARTICLES
 11	have	have	AUX	Verb	VerbForm=Inf	12	aux	12:aux	_	_	AUXILIARY_VERBS
 12	received	receive	VERB	Verb	Tense=Past|VerbForm=Part	9	xcomp	9:xcomp	_	State	TO_GET
-13	unearned	unearn	VERB	Verb	Tense=Past|VerbForm=Part	14	acl	14:acl	acl	ParticipleRelativeClause	TO_GET
+13	unearned	unearn	VERB	Verb	Tense=Past|VerbForm=Part	14	acl	14:acl	_	ParticipleRelativeClause	TO_GET
 14	salaries	salary	NOUN	Noun	Number=Plur	12	obj	12:obj	SpaceAfter=No	Object	MONEY
 15	,	,	PUNCT	PUNCT	_	16	punct	16:punct	_	_	_
 16	boosting	boost	VERB	Verb	VerbForm=Ger	12	advcl	12:advcl	_	Concurrent	CH_DEGREE
@@ -73623,7 +73623,7 @@
 18	,	,	PUNCT	PUNCT	_	15	punct	15:punct	_	_	_
 19	is	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_	_	AUXILIARY_VERBS
 20	seeking	seek	VERB	Verb	Tense=Pres|VerbForm=Part	0	root	0:root	_	Predicate	TO_SEEK_FIND
-21	unspecified	unspecify	VERB	Verb	Tense=Past|VerbForm=Part	22	acl	22:acl	acl	ParticipleRelativeClause	VERBAL_COMMUNICATION
+21	unspecified	unspecify	VERB	Verb	Tense=Past|VerbForm=Part	22	acl	22:acl	_	ParticipleRelativeClause	VERBAL_COMMUNICATION
 22	damages	damage	NOUN	Noun	Number=Plur	20	obj	20:obj	_	Object	MONEY
 23	in	in	ADP	Preposition	_	26	case	26:case	_	_	PREPOSITION
 24	a	a	DET	Article	Definite=Ind|PronType=Art	26	det	26:det	_	_	ARTICLES
@@ -76395,7 +76395,7 @@
 6	absence	absence	NOUN	Noun	Number=Sing	3	nmod	3:nmod:in	_	Sphere	EXISTENCE_AND_POSSESSION
 7	of	of	ADP	Preposition	_	8	case	8:case	_	_	PREPOSITION
 8	Brian	Brian	PROPN	Noun	Number=Sing	6	nmod	6:nmod:of	_	Object	BEING
-9	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	8	compound	8:compound	flat:name	Name_Title	BEING
+9	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	8	compound	8:compound	_	Name_Title	BEING
 10	-	-	PUNCT	PUNCT	_	9	punct	9:punct	_	_	_
 11	powered	power	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_	Predicate	TO_CONTRIBUTE_AND_HINDER
 12	through	through	ADP	Preposition	_	16	case	16:case	_	_	PREPOSITION
@@ -76810,7 +76810,7 @@
 1	Her	her	PRON	Pronoun	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_	Agent	BEING
 2	victory	victory	NOUN	Noun	Number=Sing	4	nsubj	4:nsubj	_	Agent_Metaphoric	CONFLICT_INTERACTION
 3	has	have	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_	_	AUXILIARY_VERBS
-4	reignited	reignite	VERB	Verb	Tense=Past|VerbForm=Part	0	root	0:root	root	Predicate	TO_COMPEL_AND_EVOKE
+4	reignited	reignite	VERB	Verb	Tense=Past|VerbForm=Part	0	root	0:root	_	Predicate	TO_COMPEL_AND_EVOKE
 5	the	the	DET	Article	Definite=Def|PronType=Art	6	det	6:det	_	_	ARTICLES
 6	debate	debate	NOUN	Noun	Number=Sing	4	obj	4:obj	_	Object_Situation	VERBAL_COMMUNICATION
 7	about	about	ADP	Preposition	_	11	case	11:case	_	_	PREPOSITION
@@ -77587,7 +77587,7 @@
 1	Irish	Irish	ADJ	Adjective	Degree=Pos	2	amod	2:amod	_	Locative	COUNTRY_AS_ADMINISTRATIVE_UNIT
 2	actor	actor	NOUN	Noun	Number=Sing	18	nsubj	18:nsubj	_	Experiencer	BEING
 3	Dan	Dan	PROPN	Noun	Number=Sing	2	appos	2:appos	_	Name_Title	BEING
-4	O'Herlihy	O'Herlihy	PROPN	Noun	Number=Sing	3	compound	3:compound	flat:name	Name_Title	BEING
+4	O'Herlihy	O'Herlihy	PROPN	Noun	Number=Sing	3	compound	3:compound	_	Name_Title	BEING
 5	,	,	PUNCT	PUNCT	_	8	punct	8:punct	_	_	_
 6	who	who	PRON	Pronoun	PronType=Rel	8	nsubj:pass	8:nsubj:pass	_	Object	BEING
 7	was	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	8:aux:pass	_	_	AUXILIARY_VERBS
@@ -79531,7 +79531,7 @@
 20	players	player	NOUN	Noun	Number=Plur	17	obj	17:obj	_	Original_Object	BEING
 21	of	of	ADP	Preposition	_	23	case	23:case	_	_	PREPOSITION
 22	the	the	DET	Article	Definite=Def|PronType=Art	23	det	23:det	_	_	ARTICLES
-23	1970s	1970s	NOUN	Noun	Number=Sing	20	nmod	20:nmod:of	nmod	Time	TIME
+23	1970s	1970s	NOUN	Noun	Number=Sing	20	nmod	20:nmod:of	_	Time	TIME
 24	,	,	PUNCT	PUNCT	_	26	punct	26:punct	_	_	_
 25	and	and	CCONJ	Conjunction	_	26	cc	26:cc	_	_	COORDINATING_CONJUNCTIONS
 26	writing	write	VERB	Verb	VerbForm=Ger	17	conj	15:advcl|17:conj:and	_	Theme	TO_WRITE
@@ -79801,7 +79801,7 @@
 12	Llanelli	Llanelli	PROPN	Noun	Number=Sing	10	nmod	10:nmod:in	_	Locative	INHABITED_LOCALITY
 13	in	in	ADP	Preposition	_	15	case	15:case	_	_	PREPOSITION
 14	the	the	DET	Article	Definite=Def|PronType=Art	15	det	15:det	_	_	ARTICLES
-15	1950s	1950s	NOUN	Noun	Number=Sing	18	obl	18:obl:in	obl	Time	TIME
+15	1950s	1950s	NOUN	Noun	Number=Sing	18	obl	18:obl:in	_	Time	TIME
 16	had	have	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	18:aux	_	_	AUXILIARY_VERBS
 17	not	not	PART	Particle	Polarity=Neg	18	advmod	18:advmod	_	_	PARTICLES
 18	done	do	VERB	Verb	Tense=Past|VerbForm=Part	3	ccomp	3:ccomp	_	Object_Situation	TO_COMMIT
@@ -81264,13 +81264,13 @@
 6	from	from	ADP	Preposition	_	7	case	7:case	_	_	PREPOSITION
 7	captain	captain	NOUN	Noun	Number=Sing	5	nmod	5:nmod:from	_	Cause	BEING
 8	Brian	Brian	PROPN	Noun	Number=Sing	7	appos	7:appos	_	Name_Title	BEING
-9	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	8	compound	8:compound	flat:name	Name_Title	BEING
+9	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	8	compound	8:compound	_	Name_Title	BEING
 10	and	and	CCONJ	Conjunction	_	12	cc	12:cc	_	_	COORDINATING_CONJUNCTIONS
 11	14	14	NUM	Numeral	NumForm=Digit|NumType=Card	12	nummod	12:nummod	_	Quantity	CH_REFERENCE_AND_QUANTIFICATION
 12	points	point	NOUN	Noun	Number=Plur	5	conj	5:conj:and|16:nsubj	_	Agent_Metaphoric	CHARACTERISTIC_GENERAL
 13	from	from	ADP	Preposition	_	14	case	14:case	_	_	PREPOSITION
 14	Ronan	Ronan	PROPN	Noun	Number=Sing	12	nmod	12:nmod:from	_	Source	BEING
-15	O'Gara	O'Gara	PROPN	Noun	Number=Sing	14	compound	14:compound	flat:name	Name_Title	BEING
+15	O'Gara	O'Gara	PROPN	Noun	Number=Sing	14	compound	14:compound	_	Name_Title	BEING
 16	kept	keep	VERB	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_	Predicate	TO_CONTRIBUTE_AND_HINDER
 17	Ireland	Ireland	PROPN	Noun	Number=Sing	16	obj	16:obj	_	Experiencer	COUNTRY_AS_ADMINISTRATIVE_UNIT
 18	on	on	ADP	Preposition	_	19	case	19:case	_	_	PREPOSITION
@@ -82074,7 +82074,7 @@
 8	traditions	tradition	NOUN	Noun	Number=Plur	4	obl	4:obl:in	_	MetaphoricLocative	LAWS_AND_STANDARDS
 9	of	of	ADP	Preposition	_	11	case	11:case	_	_	PREPOSITION
 10	the	the	DET	Article	Definite=Def|PronType=Art	11	det	11:det	_	_	ARTICLES
-11	90s	90s	NOUN	Noun	Number=Sing	8	nmod	8:nmod:of	nmod	Time	TIME
+11	90s	90s	NOUN	Noun	Number=Sing	8	nmod	8:nmod:of	_	Time	TIME
 12	.	.	PUNCT	PUNCT	_	4	punct	4:punct	_	_	_
 
 # sent_id = 4172
@@ -87366,7 +87366,7 @@
 12	Hickey	Hickey	PROPN	Noun	Number=Sing	13	nsubj	13:nsubj	_	Agent	BEING
 13	finished	finish	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	2:advcl:while	_	Time	MOTION
 14	in	in	ADP	Preposition	_	16	case	16:case	_	_	PREPOSITION
-15	10th	10th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	16	amod	16:amod	amod	_	ENDINGS
+15	10th	10th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	16	amod	16:amod	_	_	ENDINGS
 16	place	place	NOUN	Noun	Number=Sing	13	obl	13:obl:in	_	MetaphoricLocative	POSITION_AS_STATUS
 17	on	on	ADP	Preposition	_	20	case	20:case	_	_	PREPOSITION
 18	his	his	PRON	Pronoun	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	_	Object	BEING
@@ -87397,7 +87397,7 @@
 19	who	who	PRON	Pronoun	Number=Plur	21	nsubj	21:nsubj	_	Experiencer	BEING
 20	often	often	ADV	Adverb	_	21	advmod	21:advmod	_	Time	CH_REFERENCE_AND_QUANTIFICATION
 21	see	see	VERB	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	6:acl:relcl|11:conj:and	_	ParticipleRelativeClause	TO_PERCEIVE
-22	unencumbered	unencumber	VERB	Verb	Tense=Past|VerbForm=Part	23	acl	23:acl	acl	ParticipleRelativeClause	TO_CONTRIBUTE_AND_HINDER
+22	unencumbered	unencumber	VERB	Verb	Tense=Past|VerbForm=Part	23	acl	23:acl	_	ParticipleRelativeClause	TO_CONTRIBUTE_AND_HINDER
 23	distribution	distribution	NOUN	Noun	Number=Sing	21	obj	21:obj	SpaceAfter=No	Object_Situation	CIRCUMSTANCE
 24	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_	_	_
 
@@ -87500,7 +87500,7 @@
 4	of	of	ADP	Preposition	_	7	case	7:case	_	_	PREPOSITION
 5	a	a	DET	Article	Definite=Ind|PronType=Art	7	det	7:det	_	_	ARTICLES
 6	possible	possible	ADJ	Adjective	Degree=Pos	7	amod	7:amod	_	Characteristic	MODALITY
-7	reintroduction	reintroduction	NOUN	Noun	Number=Sing	3	nmod	3:nmod:of	nmod	Object_Situation	TO_USE
+7	reintroduction	reintroduction	NOUN	Noun	Number=Sing	3	nmod	3:nmod:of	_	Object_Situation	TO_USE
 8	of	of	ADP	Preposition	_	9	case	9:case	_	_	PREPOSITION
 9	Vioxx	Vioxx	PROPN	Noun	Number=Sing	7	nmod	7:nmod:of	_	Object	PRODUCT
 10	caught	catch	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_	Predicate	TO_SEEK_FIND
@@ -89091,7 +89091,7 @@
 # sent_id = 4758
 # text = The 12 th annual T in the Park festival, which takes place at Balado near Kinross in July, sold out just four days after the line-up was announced.
 1	The	the	DET	Article	Definite=Def|PronType=Art	4	det	4:det	_	_	ARTICLES
-2	12th	12th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	4	amod	4:amod	amod	_	ENDINGS
+2	12th	12th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	4	amod	4:amod	_	_	ENDINGS
 3	annual	annual	ADJ	Adjective	Degree=Pos	4	amod	4:amod	_	Time	TIME
 4	T	T	PROPN	Noun	Abbr=Yes|Number=Sing	20	nsubj	20:nsubj	_	Agent	ARRANGEMENTS
 5	in	in	ADP	Preposition	_	8	case	8:case	_	_	PREPOSITION
@@ -90187,7 +90187,7 @@
 24	Nintendo	Nintendo	PROPN	Noun	Number=Sing	25	compound	25:compound	_	Agent	ORGANIZATION
 25	GameBoy	GameBoy	PROPN	Noun	Number=Sing	17	conj	14:obj|17:conj	_	Object	APPARATUS
 26	(	(	PUNCT	PUNCT	_	27	punct	27:punct	SpaceAfter=No	_	_
-27	25th	25th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	25	parataxis	27.1:amod	amod	_	ENDINGS
+27	25th	25th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	25	parataxis	27.1:amod	_	_	ENDINGS
 27.1	#NULL	#NULL	NOUN	Noun	Number=Plur	_	_	25:parataxis	ellipsis	Specification	APPARATUS
 28	)	)	PUNCT	PUNCT	_	27	punct	27:punct	SpaceAfter=No	_	_
 29	,	,	PUNCT	PUNCT	_	25	punct	25:punct	_	_	_
@@ -90198,7 +90198,7 @@
 34	digital	digital	ADJ	Adjective	Degree=Pos	35	amod	35:amod	_	FormOfRepresentation	CH_OF_VISUAL_AUDIBLE_REPRESENTATION
 35	watch	watch	NOUN	Noun	Number=Sing	17	conj	14:obj|17:conj:and	_	Object	DEVICE_FOR_MEASURING_AND_COUNTING
 36	(	(	PUNCT	PUNCT	_	37	punct	37:punct	SpaceAfter=No	_	_
-37	36th	36th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	35	parataxis	37.1:amod	amod	_	ENDINGS
+37	36th	36th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	35	parataxis	37.1:amod	_	_	ENDINGS
 37.1	#NULL	#NULL	NOUN	Noun	Number=Plur	_	_	35:parataxis	ellipsis	Specification	DEVICE_FOR_MEASURING_AND_COUNTING
 38	)	)	PUNCT	PUNCT	_	37	punct	37:punct	SpaceAfter=No	_	_
 39	.	.	PUNCT	PUNCT	_	14	punct	14:punct	_	_	_
@@ -92023,7 +92023,7 @@
 12	by	by	ADP	Preposition	_	13	case	13:case	_	_	PREPOSITION
 13	drivers	driver	NOUN	Noun	Number=Plur	11	nmod	11:nmod:by	_	Agent	BEING
 14	of	of	ADP	Preposition	_	17	case	17:case	_	_	PREPOSITION
-15	unlicensed	unlicense	VERB	Verb	Tense=Past|VerbForm=Part	17	acl	17:acl	acl	ParticipleRelativeClause	VERBAL_COMMUNICATION
+15	unlicensed	unlicense	VERB	Verb	Tense=Past|VerbForm=Part	17	acl	17:acl	_	ParticipleRelativeClause	VERBAL_COMMUNICATION
 16	mini	mini	ADJ	Prefixoid	_	17	amod	17:amod	_	Degree	DEGREE_OF_SIZE_OR_SCALE
 17	cabs	cab	NOUN	Noun	Number=Plur	13	nmod	13:nmod:of	SpaceAfter=No	Object	TRANSPORT
 18	.	.	PUNCT	PUNCT	_	4	punct	4:punct	_	_	_
@@ -95948,7 +95948,7 @@
 13	film	film	NOUN	Noun	Number=Sing	14	compound	14:compound	_	Sphere	SPACE_TIME_ART
 14	version	version	NOUN	Noun	Number=Sing	6	obl	6:obl:in	_	MetaphoricLocative	CREATIVE_WORK
 15	of	of	ADP	Preposition	_	18	case	18:case	_	_	PREPOSITION
-16	1980s	1980s	NOUN	Noun	Number=Sing	18	compound	18:compound	compound	Time	TIME
+16	1980s	1980s	NOUN	Noun	Number=Sing	18	compound	18:compound	_	Time	TIME
 17	police	police	NOUN	Noun	Number=Sing	18	compound	18:compound	_	Sphere	ORGANIZATION
 18	drama	drama	NOUN	Noun	Number=Sing	14	nmod	14:nmod:of	_	Object	CREATIVE_WORK_BY_GENRE
 19	Miami	Miami	PROPN	Noun	Number=Sing	20	compound	20:compound	_	Locative	INHABITED_LOCALITY
@@ -97313,7 +97313,7 @@
 15	-	-	PUNCT	PUNCT	_	16	punct	16:punct	_	_	_
 16	linked	link	VERB	Verb	Tense=Past|VerbForm=Part	19	acl	19:acl	SpaceAfter=No	ParticipleRelativeClause	CH_OF_CONNECTIONS
 17	,	,	PUNCT	PUNCT	_	19	punct	19:punct	_	_	_
-18	unblighted	unblight	VERB	Verb	Tense=Past|VerbForm=Part	16	conj	16:conj|19:acl	conj	ParticipleRelativeClause	CH_POWER_AND_EFFECT
+18	unblighted	unblight	VERB	Verb	Tense=Past|VerbForm=Part	16	conj	16:conj|19:acl	_	ParticipleRelativeClause	CH_POWER_AND_EFFECT
 19	price	price	NOUN	Noun	Number=Sing	7	obl	7:obl:for	SpaceAfter=No	Ch_Parameter	CH_PRICE_AND_SUMS
 20	.	.	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
 
@@ -98126,7 +98126,7 @@
 10	released	release	VERB	Verb	Tense=Past|VerbForm=Part	9	acl	9:acl	_	ParticipleRelativeClause	TO_MAKE
 11	in	in	ADP	Preposition	_	13	case	13:case	_	_	PREPOSITION
 12	the	the	DET	Article	Definite=Def|PronType=Art	13	det	13:det	_	_	ARTICLES
-13	80s	80s	NOUN	Noun	Number=Sing	10	obl	10:obl:in	obl	Time	TIME
+13	80s	80s	NOUN	Noun	Number=Sing	10	obl	10:obl:in	_	Time	TIME
 14	and	and	CCONJ	Conjunction	_	21	cc	21:cc	_	_	COORDINATING_CONJUNCTIONS
 15	pretty	pretty	ADV	_	_	16	advmod	16:advmod	_	_	_
 16	much	much	ADV	_	_	17	advmod	17:advmod	_	Degree	TOTALITY_OF_DEGREE
@@ -100196,7 +100196,7 @@
 32	of	of	ADP	Preposition	_	36	case	36:case	_	_	PREPOSITION
 33	the	the	DET	Article	Definite=Def|PronType=Art	36	det	36:det	_	_	ARTICLES
 34	late	late	ADJ	Adjective	Degree=Pos	36	amod	36:amod	_	Time	CH_REFERENCE_AND_QUANTIFICATION
-35	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	36	amod	36:amod	amod	_	ENDINGS
+35	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	36	amod	36:amod	_	_	ENDINGS
 36	century	century	NOUN	Noun	Number=Sing	31	nmod	31:nmod:of	SpaceAfter=No	Time	TIME
 37	.	.	PUNCT	PUNCT	_	15	punct	15:punct	_	_	_
 
@@ -104043,7 +104043,7 @@
 24	chief	chief	ADJ	Adjective	Degree=Pos	25	amod	25:amod	_	Characteristic	POSITION_IN_HIERARCHY
 25	executive	executive	NOUN	Noun	Number=Sing	23	nsubj	23:nsubj	_	Agent	BEING
 26	Finian	Finian	PROPN	Noun	Number=Sing	25	appos	25:appos	_	Name_Title	BEING
-27	O'Sullivan	O'Sullivan	PROPN	Noun	Number=Sing	26	compound	26:compound	flat:name	Name_Title	BEING
+27	O'Sullivan	O'Sullivan	PROPN	Noun	Number=Sing	26	compound	26:compound	_	Name_Title	BEING
 28	.	.	PUNCT	PUNCT	_	23	punct	23:punct	_	_	_
 
 # sent_id = 87
@@ -104094,7 +104094,7 @@
 1	He	he	PRON	Pronoun	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	_	Relative	BEING
 2	becomes	become	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	Predicate	BE
 3	the	the	DET	Article	Definite=Def|PronType=Art	5	det	5:det	_	_	ARTICLES
-4	117th	117th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	5	amod	5:amod	amod	_	ENDINGS
+4	117th	117th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	5	amod	5:amod	_	_	ENDINGS
 5	captain	captain	NOUN	Noun	Number=Sing	2	xcomp	2:xcomp	_	Correlative	BEING
 6	of	of	ADP	Preposition	_	7	case	7:case	_	_	PREPOSITION
 7	England	England	PROPN	Noun	Number=Sing	5	nmod	5:nmod:of	_	Object	COUNTRY_AS_ADMINISTRATIVE_UNIT
@@ -107444,7 +107444,7 @@
 
 # sent_id = 2765
 # text = " But it's not necessarily a really big thing in the economic sense."
-1	"	"	PUNCT	PUNCT	_	10	punct	10:punct	NoSpaceBefore=Yes	_	_
+1	"	"	PUNCT	PUNCT	_	10	punct	10:punct	SpaceAfter=No	_	_
 2	But	but	CCONJ	Conjunction	_	10	cc	10:cc	_	_	COORDINATING_CONJUNCTIONS
 3-4	it's	_	_	_	_	_	_	_	_	_	_
 3	it	it	PRON	Pronoun	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	SpaceAfter=No	Relative	ENTITY_OR_SITUATION_PRONOUN
@@ -108945,7 +108945,7 @@
 19	Parliament	parliament	PROPN	Noun	Number=Sing	17	obl	17:obl:to	_	Sphere	ORGANIZATION
 20	in	in	ADP	Preposition	_	23	case	23:case	_	_	PREPOSITION
 21	the	the	DET	Article	Definite=Def|PronType=Art	23	det	23:det	_	_	ARTICLES
-22	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	23	amod	23:amod	amod	_	ENDINGS
+22	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	23	amod	23:amod	_	_	ENDINGS
 23	century	century	NOUN	Noun	Number=Sing	17	obl	17:obl:in	_	Time	TIME
 24	winning	win	VERB	Verb	VerbForm=Ger	6	advcl	6.1:advcl	_	Concurrent	TO_GET
 25	a	a	DET	Article	Definite=Ind|PronType=Art	26	det	26:det	_	_	ARTICLES
@@ -108963,7 +108963,7 @@
 5	retain	retain	VERB	Verb	VerbForm=Inf	3	xcomp	3:xcomp	_	Object_Situation	CONTINUE_TO_HAVE
 6	discipline	discipline	NOUN	Noun	Number=Sing	5	obj	5:obj	_	Object_Situation	CH_EVALUATION_OF_HUMAN_TEMPER_AND_ACTIVITY
 7	and	and	CCONJ	Conjunction	_	8	cc	8:cc	_	_	COORDINATING_CONJUNCTIONS
-8	selfmotivate	selfmotivate	VERB	Verb	VerbForm=Inf	5	conj	3:xcomp|5:conj:and	conj	Object_Situation	MOTIVATE
+8	selfmotivate	selfmotivate	VERB	Verb	VerbForm=Inf	5	conj	3:xcomp|5:conj:and	_	Object_Situation	MOTIVATE
 9	to	to	ADP	Preposition	_	10	mark	10:mark	_	_	PARTICLES
 10	get	get	VERB	Verb	VerbForm=Inf	8	xcomp	8:xcomp	_	Object_Situation	BE
 11	the	the	DET	Article	Definite=Def|PronType=Art	12	det	12:det	_	_	ARTICLES
@@ -109170,7 +109170,7 @@
 16	spell	spell	NOUN	Noun	Number=Sing	14	obj	14:obj	_	Object	RESULTS_OF_GIVING_INFORMATION_AND_SPEECH_ACTIVITY
 17	on	on	ADP	Preposition	_	20	case	20:case	_	_	PREPOSITION
 18	such	such	ADJ	Adjective	Degree=Pos	20	amod	20:amod	_	Characteristic	CH_OF_CONNECTIONS
-19	1960s	1960s	NOUN	Noun	Number=Sing	20	compound	20:compound	compound	Object	TIME
+19	1960s	1960s	NOUN	Noun	Number=Sing	20	compound	20:compound	_	Object	TIME
 20	stalwarts	stalwart	NOUN	Noun	Number=Plur	14	obl	14:obl:on	_	Locative_FinalPoint	BEING
 21	as	as	SCONJ	Conjunction	_	22	case	22:case	_	_	CONJUNCTIONS
 22	Joe	Joe	PROPN	Noun	Number=Sing	20	nmod	20:nmod:as	_	Comparison	BEING
@@ -109468,7 +109468,7 @@
 6	in	in	ADP	Preposition	_	9	case	9:case	_	_	PREPOSITION
 7	the	the	DET	Article	Definite=Def|PronType=Art	9	det	9:det	_	_	ARTICLES
 8	early	early	ADJ	Adjective	Degree=Pos	9	amod	9:amod	_	Time	CH_REFERENCE_AND_QUANTIFICATION
-9	1990s	1990s	NOUN	Noun	Number=Sing	4	obl	4:obl:in	obl	Time	TIME
+9	1990s	1990s	NOUN	Noun	Number=Sing	4	obl	4:obl:in	_	Time	TIME
 10	had	have	AUX	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	11:aux	_	_	AUXILIARY_VERBS
 11	involved	involve	VERB	Verb	Tense=Past|VerbForm=Part	2	ccomp	2:ccomp	_	Object_Situation	CONTAIN_INCLUDE_FORM
 12	trickery	trickery	NOUN	Noun	Number=Sing	11	obj	11:obj	SpaceAfter=No	Object_Situation	STATE_OF_MIND
@@ -113267,7 +113267,7 @@
 20	play	play	NOUN	Noun	Number=Sing	17	obj	17:obj	_	Object	SCIENTIFIC_AND_LITERARY_WORK
 21	by	by	ADP	Preposition	_	26	case	26:case	_	_	PREPOSITION
 22	the	the	DET	Article	Definite=Def|PronType=Art	26	det	26:det	_	_	ARTICLES
-23	18th	18th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	25	amod	25:amod	amod	_	ENDINGS
+23	18th	18th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	25	amod	25:amod	_	_	ENDINGS
 24	-	-	PUNCT	PUNCT	_	26	punct	26:punct	_	_	_
 25	Century	century	PROPN	Noun	Number=Sing	26	compound	26:compound	_	Time	TIME
 26	dramatist	dramatist	NOUN	Noun	Number=Sing	20	nmod	20:nmod:by	SpaceAfter=No	Agent	BEING
@@ -116938,7 +116938,7 @@
 1	Ireland	Ireland	PROPN	Noun	Number=Sing	3	nmod:poss	3:nmod:poss	_	Locative	COUNTRY_AS_ADMINISTRATIVE_UNIT
 2	's	's	PART	_	_	1	case	1:case	_	_	_
 3	Brian	Brian	PROPN	Noun	Number=Sing	6	nsubj	6:nsubj	_	Causator	BEING
-4	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	3	compound	3:compound	flat:name	Name_Title	BEING
+4	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	3	compound	3:compound	_	Name_Title	BEING
 5	will	will	AUX	Verb	VerbForm=Fin	6	aux	6:aux	_	_	AUXILIARY_VERBS
 6	lead	lead	VERB	Verb	VerbForm=Inf	0	root	0:root	_	Predicate	MOTION
 7	the	the	DET	Article	Definite=Def|PronType=Art	10	det	10:det	_	_	ARTICLES
@@ -117602,7 +117602,7 @@
 # text = Growth in un secured lending, such as personal loans and credit cards, also slowed last month.
 1	Growth	growth	NOUN	Noun	Number=Sing	15	nsubj	15:nsubj	_	Object_Situation	CH_DEGREE
 2	in	in	ADP	Preposition	_	4	case	4:case	_	_	PREPOSITION
-3	unsecured	unsecure	VERB	Verb	Tense=Past|VerbForm=Part	4	acl	4:acl	acl	ParticipleRelativeClause	DEFEND_SAVE
+3	unsecured	unsecure	VERB	Verb	Tense=Past|VerbForm=Part	4	acl	4:acl	_	ParticipleRelativeClause	DEFEND_SAVE
 4	lending	lending	NOUN	Noun	Number=Sing	1	nmod	1:nmod:in	SpaceAfter=No	Sphere	TO_GIVE
 5	,	,	PUNCT	PUNCT	_	9	punct	9:punct	_	_	_
 6	such	such	ADJ	Adjective	Degree=Pos	9	case	9:case	_	Characteristic	CH_OF_CONNECTIONS
@@ -118434,7 +118434,7 @@
 2	is	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	_	Predicate	BE
 3	only	only	ADV	Adverb	_	6	advmod	6:advmod	_	Limitation	DISCOURSIVE_UNITS
 4	the	the	DET	Article	Definite=Def|PronType=Art	6	det	6:det	_	_	ARTICLES
-5	13th	13th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	6	amod	6:amod	amod	_	ENDINGS
+5	13th	13th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	6	amod	6:amod	_	_	ENDINGS
 6	time	time	NOUN	Noun	Number=Sing	0	root	0:root	_	Correlative	CH_REFERENCE_AND_QUANTIFICATION
 7	the	the	DET	Article	Definite=Def|PronType=Art	8	det	8:det	_	_	ARTICLES
 8	power	power	NOUN	Noun	Number=Sing	11	nsubj:pass	11:nsubj:pass	_	Object_Situation	POWER_CHAR
@@ -121707,7 +121707,7 @@
 20	it	it	PRON	Pronoun	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	_	Object_Situation	TO_CARE_AND_BRING_UP
 21	was	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	23:cop	_	Object_Situation	BE
 22	"	"	PUNCT	PUNCT	_	23	punct	23:punct	SpaceAfter=No	_	_
-23	unsustainable	unsustainable	ADJ	Adjective	Degree=Pos	19	ccomp	19:ccomp	ccomp	State	CH_RESISTANCE_TO_IMPACT
+23	unsustainable	unsustainable	ADJ	Adjective	Degree=Pos	19	ccomp	19:ccomp	_	State	CH_RESISTANCE_TO_IMPACT
 24	"	"	PUNCT	PUNCT	_	23	punct	23:punct	SpaceAfter=No	_	_
 25	.	.	PUNCT	PUNCT	_	2	punct	2:punct	_	_	_
 
@@ -122081,7 +122081,7 @@
 2	news	news	NOUN	Noun	Number=Sing	3	compound	3:compound	_	Sphere	INFORMATION
 3	correspondent	correspondent	NOUN	Noun	Number=Sing	6	nsubj	6:nsubj	_	Agent	BEING
 4	Gary	Gary	PROPN	Noun	Number=Sing	3	appos	3:appos	_	Name_Title	BEING
-5	O'Donoghue	O'Donoghue	PROPN	Noun	Number=Sing	4	compound	4:compound	flat:name	Name_Title	BEING
+5	O'Donoghue	O'Donoghue	PROPN	Noun	Number=Sing	4	compound	4:compound	_	Name_Title	BEING
 6	said	say	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_	Predicate	VERBAL_COMMUNICATION
 7	Mrs	Mrs.	PROPN	Noun	Number=Sing	10	nsubj	10:nsubj	_	Raising_Target	BEING
 8	Blair	Blair	PROPN	Noun	Number=Sing	7	flat:name	7:flat:name	_	Name_Title	BEING
@@ -122163,7 +122163,7 @@
 5	that	that	SCONJ	Conjunction	_	10	nsubj	10:nsubj	_	_	CONJUNCTIONS
 6	was	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	10:cop	_	ParticipleRelativeClause	BE
 7	a	a	DET	Article	Definite=Ind|PronType=Art	10	det	10:det	_	_	ARTICLES
-8	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	amod	9:amod	amod	_	ENDINGS
+8	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	amod	9:amod	_	_	ENDINGS
 9	anniversary	anniversary	NOUN	Noun	Number=Sing	10	compound	10:compound	_	Sphere	ARRANGEMENTS
 10	present	present	NOUN	Noun	Number=Sing	4	acl:relcl	4:acl:relcl	_	Correlative	OBJECT_BY_FUNCTION_AND_PROPERTY
 11	and	and	CCONJ	Conjunction	_	15	cc	15:cc	_	_	COORDINATING_CONJUNCTIONS
@@ -122675,7 +122675,7 @@
 12	from	from	ADP	Preposition	_	15	case	15:case	_	_	PREPOSITION
 13	the	the	DET	Article	Definite=Def|PronType=Art	15	det	15:det	_	_	ARTICLES
 14	early	early	ADJ	Adjective	Degree=Pos	15	amod	15:amod	_	Time	CH_REFERENCE_AND_QUANTIFICATION
-15	1990s	1990s	NOUN	Noun	Number=Sing	17	nmod	17:nmod:from	nmod	Interval_Beginning	TIME
+15	1990s	1990s	NOUN	Noun	Number=Sing	17	nmod	17:nmod:from	_	Interval_Beginning	TIME
 16	to	to	ADP	Preposition	_	17	case	17:case	_	_	PREPOSITION
 17	1997	1997	NOUN	Noun	Number=Sing	10	obl	10:obl:to	SpaceAfter=No	Time	TIME
 18	.	.	PUNCT	PUNCT	_	10	punct	10:punct	_	_	_
@@ -122911,7 +122911,7 @@
 6	disco	disco	NOUN	Noun	Number=Sing	4	obl	4:obl:with	_	Correlative	DYNAMIC_ARTS
 7	in	in	ADP	Preposition	_	9	case	9:case	_	_	PREPOSITION
 8	the	the	DET	Article	Definite=Def|PronType=Art	9	det	9:det	_	_	ARTICLES
-9	70s	70s	NOUN	Noun	Number=Sing	4	obl	4:obl:in	obl	Time	TIME
+9	70s	70s	NOUN	Noun	Number=Sing	4	obl	4:obl:in	_	Time	TIME
 10	.	.	PUNCT	PUNCT	_	4	punct	4:punct	_	_	_
 
 # sent_id = 7681
@@ -123434,7 +123434,7 @@
 1	Ireland	Ireland	PROPN	Noun	Number=Sing	2	compound	2:compound	_	Locative	COUNTRY_AS_ADMINISTRATIVE_UNIT
 2	coach	coach	NOUN	Noun	Number=Sing	5	nsubj	5:nsubj|8:nsubj:xsubj	_	Raising_Target	BEING
 3	Eddie	Eddie	PROPN	Noun	Number=Sing	2	appos	2:appos	_	Name_Title	BEING
-4	O'Sullivan	O'Sullivan	PROPN	Noun	Number=Sing	3	compound	3:compound	flat:name	Name_Title	BEING
+4	O'Sullivan	O'Sullivan	PROPN	Noun	Number=Sing	3	compound	3:compound	_	Name_Title	BEING
 5	appears	appear	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	Predicate	STATE_OF_MIND
 6	to	to	ADP	Preposition	_	8	mark	8:mark	_	_	PARTICLES
 7	have	have	AUX	Verb	VerbForm=Inf	8	aux	8:aux	_	_	AUXILIARY_VERBS
@@ -125241,7 +125241,7 @@
 71	)	)	PUNCT	PUNCT	_	70	punct	70:punct	SpaceAfter=No	_	_
 72	,	,	PUNCT	PUNCT	_	73	punct	73:punct	_	_	_
 73	B	B	PROPN	Noun	Number=Sing	68	compound	68:compound	_	Name_Title	BEING
-74	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	68	compound	68:compound	appos	Specification	BEING
+74	O'Driscoll	O'Driscoll	PROPN	Noun	Number=Sing	68	compound	68:compound	_	Specification	BEING
 75	,	,	PUNCT	PUNCT	_	73	punct	73:punct	_	_	_
 76	(	(	PUNCT	PUNCT	_	77	punct	77:punct	SpaceAfter=No	_	_
 77	Leinster	Leinster	PROPN	Noun	Number=Sing	68	parataxis	68:parataxis	SpaceAfter=No	Specification	ADMINISTRATIVE_REGION
@@ -125273,7 +125273,7 @@
 3	better	good	ADJ	Adjective	Degree=Cmp	4	amod	4:amod	_	Characteristic	CH_EVALUATION
 4	way	way	NOUN	Noun	Number=Sing	6	nsubj	6:nsubj	_	Manner	METHOD_APPROACH_TECHNIQUE
 5	to	to	ADP	Preposition	_	6	mark	6:mark	_	_	PARTICLES
-6	reignite	reignite	VERB	Verb	VerbForm=Inf	0	root	0:root	root	Predicate	TO_COMPEL_AND_EVOKE
+6	reignite	reignite	VERB	Verb	VerbForm=Inf	0	root	0:root	_	Predicate	TO_COMPEL_AND_EVOKE
 7	a	a	DET	Article	Definite=Ind|PronType=Art	8	det	8:det	_	_	ARTICLES
 8	passion	passion	NOUN	Noun	Number=Sing	6	obj	6:obj	_	Object_Situation	EMOTIONS_AND_THEIR_EXPRESSION
 9	for	for	ADP	Preposition	_	10	case	10:case	_	_	PREPOSITION
@@ -127782,7 +127782,7 @@
 11	condition	condition	NOUN	Noun	Number=Sing	7	nmod	7:nmod:of	_	Object_Situation	PHYSICAL_PSYCHIC_CONDITION
 12	-	-	PUNCT	PUNCT	_	15	punct	15:punct	_	_	_
 13	progressive	progressive	ADJ	Adjective	Degree=Pos	15	amod	15:amod	_	Sphere	TO_CHANGE
-14	multifocal	multifocal	ADJ	Adjective	Degree=Pos	15	amod	15:amod	amod	Part	PLACE
+14	multifocal	multifocal	ADJ	Adjective	Degree=Pos	15	amod	15:amod	_	Part	PLACE
 15	leukoencephalopathy	leukoencephalopathy	NOUN	Noun	Number=Sing	11	appos	11:appos	_	Specification	PHYSICAL_PSYCHIC_CONDITION
 16	(	(	PUNCT	PUNCT	_	17	punct	17:punct	SpaceAfter=No	_	_
 17	PML	PML	PROPN	Noun	Abbr=Yes|Number=Sing	15	parataxis	15:parataxis	SpaceAfter=No	Specification	PHYSICAL_PSYCHIC_CONDITION
@@ -133754,7 +133754,7 @@
 9	scoring	scoring	NOUN	Noun	Number=Sing	7	obj	7:obj	_	Object_Situation	TO_CHARACTERIZE
 10	in	in	ADP	Preposition	_	13	case	13:case	_	_	PREPOSITION
 11	the	the	DET	Article	Definite=Def|PronType=Art	13	det	13:det	_	_	ARTICLES
-12	84th	84th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	13	amod	13:amod	amod	_	ENDINGS
+12	84th	84th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	13	amod	13:amod	_	_	ENDINGS
 13	minute	minute	NOUN	Noun	Number=Sing	7	obl	7:obl:in	_	Time	TIME
 14	with	with	ADP	Preposition	_	17	case	17:case	_	_	PREPOSITION
 15	a	a	DET	Article	Definite=Ind|PronType=Art	17	det	17:det	_	_	ARTICLES
@@ -133836,7 +133836,7 @@
 5	first	first	ADJ	Numeral	Degree=Pos|NumForm=Word|NumType=Ord	6	amod	6:amod	_	OrderInTimeAndSpace	CH_REFERENCE_AND_QUANTIFICATION
 6	Briton	Briton	PROPN	Noun	Number=Sing	0	root	0:root	_	Correlative	BEING
 7	in	in	ADP	Preposition	_	9	case	9:case	_	_	PREPOSITION
-8	12th	12th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	amod	9:amod	amod	_	ENDINGS
+8	12th	12th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	amod	9:amod	_	_	ENDINGS
 9	place	place	NOUN	Noun	Number=Sing	6	nmod	6:nmod:in	_	MetaphoricLocative	POSITION_AS_STATUS
 10	while	while	SCONJ	Conjunction	_	13	mark	13:mark	_	_	CONJUNCTIONS
 11	Nick	Nick	PROPN	Noun	Number=Sing	13	nsubj	13:nsubj	_	Object	BEING
@@ -138407,7 +138407,7 @@
 18	the	the	DET	Article	Definite=Def|PronType=Art	21	det	21:det	_	_	ARTICLES
 19	mid	mid	ADJ	Prefixoid	_	21	compound	21:compound	_	Characteristic	PROCESS_AND_ITS_STAGES
 20	-	-	PUNCT	PUNCT	_	24	punct	24:punct	_	_	_
-21	90s	90s	NOUN	Noun	Number=Sing	16	nmod	16:nmod:of	nmod	Time	TIME
+21	90s	90s	NOUN	Noun	Number=Sing	16	nmod	16:nmod:of	_	Time	TIME
 22	who	who	PRON	Pronoun	PronType=Rel	24	nsubj	24:nsubj	_	Object	BEING
 23	are	be	AUX	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_	ParticipleRelativeClause	BE
 24	likely	likely	ADJ	Adjective	Degree=Pos	11	acl:relcl	11:acl:relcl	_	State	MODALITY
@@ -138960,7 +138960,7 @@
 7	after	after	ADP	Preposition	_	8	case	8:case	_	_	PREPOSITION
 8	rising	rise	VERB	Verb	VerbForm=Ger	2	advcl	2:advcl	_	Time	POSITION_IN_HIERARCHY
 9	from	from	ADP	Preposition	_	11	case	11:case	_	_	PREPOSITION
-10	10th	10th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	11	amod	11:amod	amod	_	ENDINGS
+10	10th	10th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	11	amod	11:amod	_	_	ENDINGS
 11	position	position	NOUN	Noun	Number=Sing	8	obl	8:obl:from	_	Source	CH_DISPOSITION_AND_MOTION
 12	last	last	ADJ	Adjective	Degree=Pos	13	amod	13:amod	_	OrderInTimeAndSpace	CH_REFERENCE_AND_QUANTIFICATION
 13	year	year	NOUN	Noun	Number=Sing	8	obl	8:obl	SpaceAfter=No	Time	TIME
@@ -139358,7 +139358,7 @@
 3	has	have	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_	_	AUXILIARY_VERBS
 4	scored	score	VERB	Verb	Tense=Past|VerbForm=Part	0	root	0:root	_	Predicate	TO_GET
 5	his	his	PRON	Pronoun	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	_	Object	BEING
-6	19th	19th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	amod	9:amod	amod	_	ENDINGS
+6	19th	19th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	9	amod	9:amod	_	_	ENDINGS
 7	number	number	NOUN	Noun	Number=Sing	9	compound	9:compound	_	Specifier_Number	IDENTIFYING_ATTRIBUTE
 8	one	one	NUM	Numeral	NumForm=Word|NumType=Card	7	nummod	7:nummod	_	Specifier_Number	CH_REFERENCE_AND_QUANTIFICATION
 9	single	single	NOUN	Noun	Number=Sing	4	obj	4:obj	_	Object	DYNAMIC_ARTS
@@ -140896,7 +140896,7 @@
 1	"	"	PUNCT	PUNCT	_	10	punct	10:punct	SpaceAfter=No	_	_
 2	In	in	ADP	Preposition	_	5	case	5:case	_	_	PREPOSITION
 3	the	the	DET	Article	Definite=Def|PronType=Art	5	det	5:det	_	_	ARTICLES
-4	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	5	amod	5:amod	amod	_	ENDINGS
+4	20th	20th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	5	amod	5:amod	_	_	ENDINGS
 5	century	century	NOUN	Noun	Number=Sing	10	obl	10:obl:in	SpaceAfter=No	Time	TIME
 6	,	,	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
 7-8	it's	_	_	_	_	_	_	_	_	_	_
@@ -144370,7 +144370,7 @@
 1	It	it	PRON	Pronoun	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	0:root	_	Empty_Subject_It	EMPTY_SUBJECT
 2	is	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_	Predicate	BE
 3	the	the	DET	Article	Definite=Def|PronType=Art	5	det	5:det	_	_	ARTICLES
-4	12th	12th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	5	amod	5:amod	amod	_	ENDINGS
+4	12th	12th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	5	amod	5:amod	_	_	ENDINGS
 5	time	time	NOUN	Noun	Number=Sing	1	acl:cleft	1:acl:cleft	_	_	CH_REFERENCE_AND_QUANTIFICATION
 6	in	in	ADP	Preposition	_	8	case	8:case	_	_	PREPOSITION
 7	13	13	NUM	Numeral	NumForm=Digit|NumType=Card	8	nummod	8:nummod	_	Quantity	CH_REFERENCE_AND_QUANTIFICATION
@@ -144862,7 +144862,7 @@
 12	of	of	ADP	Preposition	_	13	case	13:case	_	_	PREPOSITION
 13	nostalgia	nostalgia	NOUN	Noun	Number=Sing	11	nmod	11:nmod:of	_	Object_Situation	EMOTIONS_AND_THEIR_EXPRESSION
 14	for	for	ADP	Preposition	_	18	case	18:case	_	_	PREPOSITION
-15	1980s	1980s	NOUN	Noun	Number=Sing	17	compound	17:compound	compound	Object	TIME
+15	1980s	1980s	NOUN	Noun	Number=Sing	17	compound	17:compound	_	Object	TIME
 16	-	-	PUNCT	PUNCT	_	18	punct	18:punct	_	_	_
 17	era	era	NOUN	Noun	Number=Sing	18	compound	18:compound	_	Time	TIME
 18	games	game	NOUN	Noun	Number=Plur	13	nmod	13:nmod:for	SpaceAfter=No	Agent_Metaphoric	ARTEFACT
@@ -147158,7 +147158,7 @@
 13	calendar	calendar	NOUN	Noun	Number=Sing	7	nmod	7:nmod:in	SpaceAfter=No	MetaphoricLocative	LAWS_AND_STANDARDS
 14	,	,	PUNCT	PUNCT	_	18	punct	18:punct	_	_	_
 15	the	the	DET	Article	Definite=Def|PronType=Art	18	det	18:det	_	_	ARTICLES
-16	77th	77th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	18	amod	18:amod	amod	_	ENDINGS
+16	77th	77th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	18	amod	18:amod	_	_	ENDINGS
 17	Academy	academy	PROPN	Noun	Number=Sing	18	compound	18:compound	_	Source	ORGANIZATION
 18	Awards	award	PROPN	Noun	Number=Plur	13	appos	13:appos	SpaceAfter=No	Specification	REWARD_AS_ENTITY
 19	,	,	PUNCT	PUNCT	_	18	punct	18:punct	_	_	_
@@ -147582,7 +147582,7 @@
 13	of	of	ADP	Preposition	_	14	case	14:case	_	_	PREPOSITION
 14	becoming	become	VERB	Verb	VerbForm=Ger	12	nmod	12:nmod:of	_	Object_Situation	BE
 15	the	the	DET	Article	Definite=Def|PronType=Art	17	det	17:det	_	_	ARTICLES
-16	1,000th	1,000th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	17	amod	17:amod	amod	_	ENDINGS
+16	1,000th	1,000th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	17	amod	17:amod	_	_	ENDINGS
 17	number	number	NOUN	Noun	Number=Sing	14	xcomp	14:xcomp	_	Correlative	IDENTIFYING_ATTRIBUTE
 18	one	one	NUM	Numeral	NumForm=Word|NumType=Card	17	nummod	17:nummod	_	Specifier_Number	CH_REFERENCE_AND_QUANTIFICATION
 19	as	as	SCONJ	Conjunction	_	25	mark	25:mark	_	_	CONJUNCTIONS
@@ -149281,7 +149281,7 @@
 12	relations	relation	NOUN	Noun	Number=Plur	10	obj	10:obj	_	Object_Situation	INTERPERSONAL_RELATIONS
 13	in	in	ADP	Preposition	_	15	case	15:case	_	_	PREPOSITION
 14	the	the	DET	Article	Definite=Def|PronType=Art	15	det	15:det	_	_	ARTICLES
-15	1960s	1960s	NOUN	Noun	Number=Sing	10	obl	10:obl:in	obl	Time	TIME
+15	1960s	1960s	NOUN	Noun	Number=Sing	10	obl	10:obl:in	_	Time	TIME
 16	,	,	PUNCT	PUNCT	_	2	punct	2:punct	_	_	_
 17	he	he	PRON	Pronoun	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	_	Agent	BEING
 18	also	also	ADV	Adverb	_	19	advmod	19:advmod	_	Addition	DISCOURSIVE_UNITS
@@ -149981,7 +149981,7 @@
 11-12	singer's	_	_	_	_	_	_	_	_	_	_
 11	singer	singer	NOUN	Noun	Number=Sing	14	nmod:poss	14:nmod:poss	_	Possessor	BEING
 12	's	's	PART	_	_	11	case	11:case	_	_	_
-13	70th	70th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	14	amod	14:amod	amod	_	ENDINGS
+13	70th	70th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	14	amod	14:amod	_	_	ENDINGS
 14	birthday	birthday	NOUN	Noun	Number=Sing	8	obj	8:obj	_	Correlative	TIME
 15	on	on	ADP	Preposition	_	16	case	16:case	_	_	PREPOSITION
 16	Saturday	Saturday	PROPN	Noun	Number=Sing	8	obl	8:obl:on	SpaceAfter=No	Time	TIME
@@ -152015,7 +152015,7 @@
 11	the	the	DET	Article	Definite=Def|PronType=Art	14	det	14:det	_	_	ARTICLES
 12	mid	mid	ADJ	Prefixoid	_	14	compound	14:compound	_	Characteristic	PROCESS_AND_ITS_STAGES
 13	-	-	PUNCT	PUNCT	_	14	punct	14:punct	_	_	_
-14	1990s	1990s	NOUN	Noun	Number=Sing	9	obl	9:obl:since	obl	Time	TIME
+14	1990s	1990s	NOUN	Noun	Number=Sing	9	obl	9:obl:since	_	Time	TIME
 15	,	,	PUNCT	PUNCT	_	21	punct	21:punct	_	_	_
 16	and	and	CCONJ	Conjunction	_	21	cc	21:cc	_	_	COORDINATING_CONJUNCTIONS
 17	the	the	DET	Article	Definite=Def|PronType=Art	19	det	19:det	_	_	ARTICLES
@@ -154018,7 +154018,7 @@
 3	speculate	speculate	VERB	Verb	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_	Predicate	TO_THINK_ABOUT
 4	that	that	SCONJ	Conjunction	_	9	mark	9:mark	_	_	CONJUNCTIONS
 5	this	this	DET	Pronoun	Number=Sing|PronType=Dem	7	det	7:det	_	Ch_Reference	CH_REFERENCE_AND_QUANTIFICATION
-6	multilingual	multilingual	ADJ	Adjective	Degree=Pos	7	amod	7:amod	amod	Part	SYMBOLS_FOR_INFORMATION_TRANSFER
+6	multilingual	multilingual	ADJ	Adjective	Degree=Pos	7	amod	7:amod	_	Part	SYMBOLS_FOR_INFORMATION_TRANSFER
 7	ability	ability	NOUN	Noun	Number=Sing	9	nsubj	9:nsubj	_	Agent_Metaphoric	MODALITY
 8	is	be	AUX	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_	_	AUXILIARY_VERBS
 9	helping	help	VERB	Verb	Tense=Pres|VerbForm=Part	3	ccomp	3:ccomp	_	Object_Situation	TO_CONTRIBUTE_AND_HINDER
@@ -154278,7 +154278,7 @@
 9	and	and	CCONJ	Conjunction	_	10	cc	10:cc	_	_	COORDINATING_CONJUNCTIONS
 10	supports	support	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	0:root|5:conj:and	_	Predicate	TO_CONTRIBUTE_AND_HINDER
 11	wireless	wireless	ADJ	Adjective	Degree=Pos	13	amod	13:amod	_	Part	ARTEFACT
-12	multiplayer	multiplayer	NOUN	Noun	Number=Sing	13	compound	13:compound	compound	Part	BEING
+12	multiplayer	multiplayer	NOUN	Noun	Number=Sing	13	compound	13:compound	_	Part	BEING
 13	gaming	gaming	NOUN	Noun	Number=Sing	10	obj	10:obj	SpaceAfter=No	Experiencer_Metaphoric	TO_PLAY_GAMES
 14	.	.	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
 
@@ -154535,11 +154535,11 @@
 10	playing	play	VERB	Verb	VerbForm=Ger	8	xcomp	8:xcomp	_	State	TO_PERFORM
 11	in	in	ADP	Preposition	_	13	case	13:case	_	_	PREPOSITION
 12	their	their	PRON	Pronoun	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	_	Possessor	BEING
-13	30s	30s	NOUN	Noun	Number=Sing	10	obl	10:obl:in	obl	Time	TIME
+13	30s	30s	NOUN	Noun	Number=Sing	10	obl	10:obl:in	_	Time	TIME
 14	,	,	PUNCT	PUNCT	_	15	punct	15:punct	_	_	_
-15	40s	40s	NOUN	Noun	Number=Sing	13	conj	10:obl:in|12:conj	conj	Time	TIME
+15	40s	40s	NOUN	Noun	Number=Sing	13	conj	10:obl:in|12:conj	_	Time	TIME
 16	and	and	CCONJ	Conjunction	_	17	cc	17:cc	_	_	COORDINATING_CONJUNCTIONS
-17	50s	50s	NOUN	Noun	Number=Sing	13	conj	10:obl:in|12:conj:and	conj	Time	TIME
+17	50s	50s	NOUN	Noun	Number=Sing	13	conj	10:obl:in|12:conj:and	_	Time	TIME
 18	.	.	PUNCT	PUNCT	_	3	punct	3:punct	_	_	_
 
 # sent_id = 626
@@ -156614,7 +156614,7 @@
 16	73	73	NUM	Numeral	NumForm=Digit|NumType=Card	15	nummod	15:nummod	_	Specifier_Number	CH_REFERENCE_AND_QUANTIFICATION
 17	in	in	ADP	Preposition	_	19	case	19:case	_	_	PREPOSITION
 18	the	the	DET	Article	Definite=Def|PronType=Art	19	det	19:det	_	_	ARTICLES
-19	1980s	1980s	NOUN	Noun	Number=Sing	9	obl	9:obl:in	obl	Time	TIME
+19	1980s	1980s	NOUN	Noun	Number=Sing	9	obl	9:obl:in	_	Time	TIME
 20	,	,	PUNCT	PUNCT	_	17	punct	17:punct	_	_	_
 21	won	win	VERB	Verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_	Predicate	TO_GET
 22	best	good	ADJ	Adjective	Degree=Sup	24	amod	24:amod	_	Characteristic	CH_EVALUATION
@@ -160250,7 +160250,7 @@
 4	pictures	picture	NOUN	Noun	Number=Plur	3	obj	3:obj	_	Object	FINE_ARTS_OBJECTS
 5	from	from	ADP	Preposition	_	7	case	7:case	_	_	PREPOSITION
 6	the	the	DET	Article	Definite=Def|PronType=Art	7	det	7:det	_	_	ARTICLES
-7	1970s	1970s	NOUN	Noun	Number=Sing	4	nmod	4:nmod:from	nmod	Time	TIME
+7	1970s	1970s	NOUN	Noun	Number=Sing	4	nmod	4:nmod:from	_	Time	TIME
 8	in	in	ADP	Preposition	_	11	case	11:case	_	_	PREPOSITION
 9	the	the	DET	Article	Definite=Def|PronType=Art	11	det	11:det	_	_	ARTICLES
 10	1992	1992	NOUN	Noun	Number=Sing	11	compound	11:compound	_	Time	TIME
@@ -164751,7 +164751,7 @@
 9	taking	take	VERB	Verb	VerbForm=Ger	7	acl	7:acl	_	ParticipleRelativeClause	TO_TAKE
 10	out	out	ADP	Adverb	_	9	compound:prt	9:compound:prt	_	_	PHRASAL_PARTICLES
 11	Ronan	Ronan	PROPN	Noun	Number=Sing	9	obj	9:obj	_	Object	BEING
-12	O'Gara	O'Gara	PROPN	Noun	Number=Sing	11	compound	11:compound	flat:name	Name_Title	BEING
+12	O'Gara	O'Gara	PROPN	Noun	Number=Sing	11	compound	11:compound	_	Name_Title	BEING
 13	off	off	ADP	Preposition	_	15	case	15:case	_	_	PREPOSITION
 14	the	the	DET	Article	Definite=Def|PronType=Art	15	det	15:det	_	_	ARTICLES
 15	ball	ball	NOUN	Noun	Number=Sing	9	obl	9:obl:off	_	Locative_InitialPoint	SPORT_DEVICE
@@ -165271,7 +165271,7 @@
 6	stark	stark	ADJ	Adjective	Degree=Pos	7	amod	7:amod	_	Characteristic	MODALITY
 7	warning	warning	NOUN	Noun	Number=Sing	18	nsubj	18:nsubj	_	Correlative	VERBAL_COMMUNICATION
 8	to	to	ADP	Preposition	_	10	case	10:case	_	_	PREPOSITION
-9	unsecured	unsecure	VERB	Verb	Tense=Past|VerbForm=Part	10	acl	10:acl	acl	ParticipleRelativeClause	DEFEND_SAVE
+9	unsecured	unsecure	VERB	Verb	Tense=Past|VerbForm=Part	10	acl	10:acl	_	ParticipleRelativeClause	DEFEND_SAVE
 10	businesses	business	NOUN	Noun	Number=Plur	7	nmod	7:nmod:to	_	Addressee	ORGANIZATION
 11	to	to	ADP	Preposition	_	12	mark	12:mark	_	_	PARTICLES
 12	get	get	VERB	Verb	VerbForm=Inf	7	advcl	7:advcl:to	_	Purpose	BE
@@ -165982,7 +165982,7 @@
 5	Horan	Horan	PROPN	Noun	Number=Sing	2	conj	0:root|2:conj	SpaceAfter=No	Predicate_Noun	BEING
 6	,	,	PUNCT	PUNCT	_	5	punct	5:punct	_	_	_
 7	D	D	PROPN	Noun	Number=Sing	8	compound	8:compound	_	Name_Title	BEING
-8	O'Callaghan	O'Callaghan	PROPN	Noun	Number=Sing	2	compound	2:compound	flatname	Predicate_Noun	BEING
+8	O'Callaghan	O'Callaghan	PROPN	Noun	Number=Sing	2	compound	2:compound	_	Predicate_Noun	BEING
 9	,	,	PUNCT	PUNCT	_	8	punct	8:punct	_	_	_
 10	E	E	PROPN	Noun	Number=Sing	11	compound	11:compound	_	Name_Title	BEING
 11	Miller	Miller	PROPN	Noun	Number=Sing	2	conj	0:root|2:conj	SpaceAfter=No	Predicate_Noun	BEING
@@ -170242,7 +170242,7 @@
 5	those	that	PRON	Pronoun	Number=Plur|PronType=Dem	4	iobj	5.1:det	_	Ch_Reference	CH_REFERENCE_AND_QUANTIFICATION
 5.1	#NULL	#NULL	NOUN	Noun	Number=Plur	_	_	4:iobj	ellipsis	Addressee	BEING
 6	with	with	ADP	Preposition	_	8	case	8:case	_	_	PREPOSITION
-7	unauthorised	unauthorise	VERB	Verb	Tense=Past|VerbForm=Part	8	acl	8:acl	acl	ParticipleRelativeClause	TO_FEEL_AND_EXPRESS_MENTAL_ATTITUDE_TO
+7	unauthorised	unauthorise	VERB	Verb	Tense=Past|VerbForm=Part	8	acl	8:acl	_	ParticipleRelativeClause	TO_FEEL_AND_EXPRESS_MENTAL_ATTITUDE_TO
 8	copies	copy	NOUN	Noun	Number=Plur	5	nmod	5.1:nmod	_	Part	RELATIVE_ENTITY
 9	to	to	ADP	Preposition	_	10	mark	10:mark	_	_	PARTICLES
 10	get	get	VERB	Verb	VerbForm=Inf	4	xcomp	4:xcomp	_	Object_Situation	TO_GET
@@ -170535,7 +170535,7 @@
 3-4	Isinbayeva's	_	_	_	_	_	_	_	_	_	_
 3	Isinbayeva	Isinbayeva	PROPN	Noun	Number=Sing	7	nmod:poss	7:nmod:poss	_	Object	BEING
 4	's	's	PART	_	_	3	case	3:case	_	_	_
-5	11th	11th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	7	amod	7:amod	amod	_	ENDINGS
+5	11th	11th	ADJ	Numeral	Degree=Pos|NumForm=Digit|NumType=Ord	7	amod	7:amod	_	_	ENDINGS
 6	world	world	ADJ	Adjective	Degree=Pos	7	amod	7:amod	_	Characteristic	CH_SPHERE_OF_COVERAGE
 7	record	record	NOUN	Noun	Number=Sing	0	root	0:root	_	Correlative	DEGREE_OF_SIZE_OR_SCALE
 8	-	-	PUNCT	PUNCT	_	9	punct	9:punct	_	_	_
